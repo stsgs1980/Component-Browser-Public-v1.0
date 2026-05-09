@@ -497,328 +497,6 @@
     "lines": 45
   },
   {
-    "project": "Web_Aesthetic_Showcase_v2.0",
-    "name": "AnimationShowcase",
-    "category": "showcase",
-    "path": "Web_Aesthetic_Showcase_v2.0",
-    "lines": 357
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v2.0",
-    "name": "KeyboardHelp",
-    "category": "ui",
-    "path": "Web_Aesthetic_Showcase_v2.0",
-    "lines": 254
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v2.0",
-    "name": "ParticleConstellation",
-    "category": "ui",
-    "path": "Web_Aesthetic_Showcase_v2.0",
-    "lines": 220
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v2.0",
-    "name": "StyleComparison",
-    "category": "comparison",
-    "path": "Web_Aesthetic_Showcase_v2.0",
-    "lines": 688
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v2.0",
-    "name": "StyleExport",
-    "category": "ui",
-    "path": "Web_Aesthetic_Showcase_v2.0",
-    "lines": 317
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v2.0",
-    "name": "StyleFavorites",
-    "category": "ui",
-    "path": "Web_Aesthetic_Showcase_v2.0",
-    "lines": 305
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v2.0",
-    "name": "StyleHistory",
-    "category": "ui",
-    "path": "Web_Aesthetic_Showcase_v2.0",
-    "lines": 296
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v2.0",
-    "name": "StyleLegend",
-    "category": "ui",
-    "path": "Web_Aesthetic_Showcase_v2.0",
-    "lines": 356
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v2.0",
-    "name": "StylePlayground",
-    "category": "ui",
-    "path": "Web_Aesthetic_Showcase_v2.0",
-    "lines": 424
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v2.0",
-    "name": "StyleStats",
-    "category": "ui",
-    "path": "Web_Aesthetic_Showcase_v2.0",
-    "lines": 263
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v2.0",
-    "name": "TokenInspector",
-    "category": "debug",
-    "path": "Web_Aesthetic_Showcase_v2.0",
-    "lines": 809
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v2.0",
-    "name": "TransitionPicker",
-    "category": "form",
-    "path": "Web_Aesthetic_Showcase_v2.0",
-    "lines": 274
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v2.0",
-    "name": "BOOT",
-    "category": "ui",
-    "path": "Web_Aesthetic_Showcase_v2.0",
-    "lines": 228
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v2.0",
-    "name": "Home",
-    "category": "app",
-    "path": "Web_Aesthetic_Showcase_v2.0",
-    "lines": 813
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "HomePage",
-    "category": "app",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 2440
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "AnimationGeneratorSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 1530
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "Base64ToolSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 766
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "BorderGeneratorSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 1333
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "BrutalismSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 863
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "CodeComparisonSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 923
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "CodePlaygroundSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 1148
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "CodeSnippetsSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 1136
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "ColorPaletteSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 1374
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "CommandPalette",
-    "category": "palette",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 270
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "CssFiltersSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 971
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "CssSnippetsSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 930
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "DevexSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 1138
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "UserProfile",
-    "category": "ui",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 1052
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "FlexboxGridSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 1386
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "GlitchSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 1132
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "GradientGeneratorSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 1013
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "JsonFormatterSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 1215
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "LoremIpsumSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 723
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "MarkdownPreviewSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 1574
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "RegexTesterSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 787
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "ResponsiveShowcaseSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 1603
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "ShadowGeneratorSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 1024
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "SoundContext",
-    "category": "context",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 479
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "StatsDashboardSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 631
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "SvgEditorSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 1146
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "TerminalSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 982
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "Transform3dSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 1141
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "TypographySection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 1107
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "UnitConverterSection",
-    "category": "sections",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 1031
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "ThemeProvider",
-    "category": "theme",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 12
-  },
-  {
-    "project": "Web_Aesthetic_Showcase_v3.0",
-    "name": "ThemeToggle",
-    "category": "theme",
-    "path": "Web_Aesthetic_Showcase_v3.0",
-    "lines": 73
-  },
-  {
     "project": "color",
     "name": "Input",
     "category": "ui",
@@ -1720,5 +1398,481 @@
     "category": "sections",
     "path": "Radix-Template",
     "lines": 80
+  },
+  {
+    "project": "Wiki-Codex-v2",
+    "name": "TerminalFrame",
+    "category": "ui",
+    "path": "Wiki-Codex-v2",
+    "lines": 62
+  },
+  {
+    "project": "Wiki-Codex-v2",
+    "name": "CopyableCodeBlock",
+    "category": "ui",
+    "path": "Wiki-Codex-v2",
+    "lines": 73
+  },
+  {
+    "project": "Wiki-Codex-v2",
+    "name": "StepCard",
+    "category": "ui",
+    "path": "Wiki-Codex-v2",
+    "lines": 75
+  },
+  {
+    "project": "Wiki-Codex-v2",
+    "name": "SelectionActionBar",
+    "category": "ui",
+    "path": "Wiki-Codex-v2",
+    "lines": 93
+  },
+  {
+    "project": "Wiki-Codex-v2",
+    "name": "UseGroupedItems",
+    "category": "hooks",
+    "path": "Wiki-Codex-v2",
+    "lines": 103
+  },
+  {
+    "project": "Wiki-Codex-v2",
+    "name": "UseIsMobile",
+    "category": "hooks",
+    "path": "Wiki-Codex-v2",
+    "lines": 37
+  },
+  {
+    "project": "Wiki-Codex-v2",
+    "name": "SlavicPluralize",
+    "category": "utils",
+    "path": "Wiki-Codex-v2",
+    "lines": 25
+  },
+  {
+    "project": "Wiki-Codex-v2",
+    "name": "FormatFileSize",
+    "category": "utils",
+    "path": "Wiki-Codex-v2",
+    "lines": 41
+  },
+  {
+    "project": "Wiki-Codex-v2",
+    "name": "TextSanitizer",
+    "category": "utils",
+    "path": "Wiki-Codex-v2",
+    "lines": 85
+  },
+  {
+    "project": "Wiki-Codex-v2",
+    "name": "UseKeyboardShortcuts",
+    "category": "hooks",
+    "path": "Wiki-Codex-v2",
+    "lines": 105
+  },
+  {
+    "project": "Wiki-Codex-v2",
+    "name": "ViewModeToggle",
+    "category": "ui",
+    "path": "Wiki-Codex-v2",
+    "lines": 66
+  },
+  {
+    "project": "Wiki-Codex-v2",
+    "name": "ConfirmDeleteDialog",
+    "category": "dialog",
+    "path": "Wiki-Codex-v2",
+    "lines": 81
+  },
+  {
+    "project": "Wiki-Codex-v2",
+    "name": "EmptyState",
+    "category": "ui",
+    "path": "Wiki-Codex-v2",
+    "lines": 66
+  },
+  {
+    "project": "Wiki-Codex-v2",
+    "name": "ProseDarkMode",
+    "category": "tokens",
+    "path": "Wiki-Codex-v2",
+    "lines": 103
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "PostProcessing",
+    "category": "canvas",
+    "path": "CHROMEDNA",
+    "lines": 62
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "FloatingParticles",
+    "category": "canvas",
+    "path": "CHROMEDNA",
+    "lines": 78
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "HolographicGridFloor",
+    "category": "canvas",
+    "path": "CHROMEDNA",
+    "lines": 133
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "CameraRig",
+    "category": "canvas",
+    "path": "CHROMEDNA",
+    "lines": 72
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "PulsingEnergyCore",
+    "category": "canvas",
+    "path": "CHROMEDNA",
+    "lines": 106
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "AmbientGlowRing",
+    "category": "canvas",
+    "path": "CHROMEDNA",
+    "lines": 68
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "WeatherParticles",
+    "category": "canvas",
+    "path": "CHROMEDNA",
+    "lines": 100
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "VolumeHeatmap3D",
+    "category": "canvas",
+    "path": "CHROMEDNA",
+    "lines": 105
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "SentimentGauge",
+    "category": "visualization",
+    "path": "CHROMEDNA",
+    "lines": 378
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "PlaybackBar",
+    "category": "panel",
+    "path": "CHROMEDNA",
+    "lines": 172
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "NotificationCenter",
+    "category": "panel",
+    "path": "CHROMEDNA",
+    "lines": 228
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "PriceAlerts",
+    "category": "panel",
+    "path": "CHROMEDNA",
+    "lines": 258
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "PerformanceHeatmap",
+    "category": "visualization",
+    "path": "CHROMEDNA",
+    "lines": 318
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "HelpModal",
+    "category": "modal",
+    "path": "CHROMEDNA",
+    "lines": 113
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "LiveTicker",
+    "category": "ui",
+    "path": "CHROMEDNA",
+    "lines": 123
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "RiskCalculator",
+    "category": "calculator",
+    "path": "CHROMEDNA",
+    "lines": 231
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "MultiTimeframeComparison",
+    "category": "panel",
+    "path": "CHROMEDNA",
+    "lines": 158
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "ScreenshotExport",
+    "category": "ui",
+    "path": "CHROMEDNA",
+    "lines": 91
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "EquitySparkline",
+    "category": "chart",
+    "path": "CHROMEDNA",
+    "lines": 86
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "TradeSimulationStore",
+    "category": "store",
+    "path": "CHROMEDNA",
+    "lines": 250
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "CompositeScoringEngine",
+    "category": "engine",
+    "path": "CHROMEDNA",
+    "lines": 322
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "HelixMath",
+    "category": "math",
+    "path": "CHROMEDNA",
+    "lines": 205
+  },
+  {
+    "project": "CHROMEDNA",
+    "name": "ChromeDNATheme",
+    "category": "styling",
+    "path": "CHROMEDNA",
+    "lines": 1398
+  },
+  {
+    "project": "P-MAS",
+    "name": "AnimatedCounter",
+    "category": "animation",
+    "path": "P-MAS",
+    "lines": 30
+  },
+  {
+    "project": "P-MAS",
+    "name": "MiniSparkline",
+    "category": "visualization",
+    "path": "P-MAS",
+    "lines": 67
+  },
+  {
+    "project": "P-MAS",
+    "name": "CollapsibleSection",
+    "category": "ui",
+    "path": "P-MAS",
+    "lines": 52
+  },
+  {
+    "project": "P-MAS",
+    "name": "SystemHealthMonitor",
+    "category": "ui",
+    "path": "P-MAS",
+    "lines": 116
+  },
+  {
+    "project": "P-MAS",
+    "name": "RecentActivityTimeline",
+    "category": "ui",
+    "path": "P-MAS",
+    "lines": 66
+  },
+  {
+    "project": "P-MAS",
+    "name": "ConnectionHeatmap",
+    "category": "visualization",
+    "path": "P-MAS",
+    "lines": 112
+  },
+  {
+    "project": "P-MAS",
+    "name": "MappingGrid",
+    "category": "visualization",
+    "path": "P-MAS",
+    "lines": 81
+  },
+  {
+    "project": "P-MAS",
+    "name": "DirectedGraphDiagram",
+    "category": "visualization",
+    "path": "P-MAS",
+    "lines": 89
+  },
+  {
+    "project": "P-MAS",
+    "name": "PerformanceDashboard",
+    "category": "ui",
+    "path": "P-MAS",
+    "lines": 143
+  },
+  {
+    "project": "P-MAS",
+    "name": "KPIStrip",
+    "category": "ui",
+    "path": "P-MAS",
+    "lines": 39
+  },
+  {
+    "project": "P-MAS",
+    "name": "PipelineStepNode",
+    "category": "ui",
+    "path": "P-MAS",
+    "lines": 75
+  },
+  {
+    "project": "P-MAS",
+    "name": "PipelineArrow",
+    "category": "ui",
+    "path": "P-MAS",
+    "lines": 28
+  },
+  {
+    "project": "P-MAS",
+    "name": "FeedbackLoopArrow",
+    "category": "ui",
+    "path": "P-MAS",
+    "lines": 61
+  },
+  {
+    "project": "P-MAS",
+    "name": "MiniPipeline",
+    "category": "ui",
+    "path": "P-MAS",
+    "lines": 32
+  },
+  {
+    "project": "P-MAS",
+    "name": "BackgroundParticles",
+    "category": "effect",
+    "path": "P-MAS",
+    "lines": 125
+  },
+  {
+    "project": "P-MAS",
+    "name": "AnimatedEdgeParticles",
+    "category": "ui",
+    "path": "P-MAS",
+    "lines": 124
+  },
+  {
+    "project": "P-MAS",
+    "name": "CircuitBreaker",
+    "category": "utils",
+    "path": "P-MAS",
+    "lines": 132
+  },
+  {
+    "project": "P-MAS",
+    "name": "FallbackManager",
+    "category": "utils",
+    "path": "P-MAS",
+    "lines": 270
+  },
+  {
+    "project": "P-MAS",
+    "name": "HealthCheck",
+    "category": "utils",
+    "path": "P-MAS",
+    "lines": 247
+  },
+  {
+    "project": "P-MAS",
+    "name": "ResilienceSuite",
+    "category": "utils",
+    "path": "P-MAS",
+    "lines": 45
+  },
+  {
+    "project": "Web_Aesthetic_Showcase",
+    "name": "RetroTerminal",
+    "category": "interactive",
+    "path": "Web_Aesthetic_Showcase",
+    "lines": 554
+  },
+  {
+    "project": "Web_Aesthetic_Showcase",
+    "name": "SyntaxHighlight",
+    "category": "dev-tool",
+    "path": "Web_Aesthetic_Showcase",
+    "lines": 718
+  },
+  {
+    "project": "Web_Aesthetic_Showcase",
+    "name": "SciFiHUD",
+    "category": "interactive",
+    "path": "Web_Aesthetic_Showcase",
+    "lines": 951
+  },
+  {
+    "project": "Web_Aesthetic_Showcase",
+    "name": "GlitchBlock",
+    "category": "effect",
+    "path": "Web_Aesthetic_Showcase",
+    "lines": 394
+  },
+  {
+    "project": "Web_Aesthetic_Showcase",
+    "name": "BrutalistWidgets",
+    "category": "ui",
+    "path": "Web_Aesthetic_Showcase",
+    "lines": 963
+  },
+  {
+    "project": "Web_Aesthetic_Showcase",
+    "name": "IdeLayout",
+    "category": "layout",
+    "path": "Web_Aesthetic_Showcase",
+    "lines": 899
+  },
+  {
+    "project": "Web_Aesthetic_Showcase",
+    "name": "CliBlock",
+    "category": "interactive",
+    "path": "Web_Aesthetic_Showcase",
+    "lines": 448
+  },
+  {
+    "project": "Web_Aesthetic_Showcase",
+    "name": "CrtOverlay",
+    "category": "effect",
+    "path": "Web_Aesthetic_Showcase",
+    "lines": 116
+  },
+  {
+    "project": "Web_Aesthetic_Showcase",
+    "name": "TypeScale",
+    "category": "tokens",
+    "path": "Web_Aesthetic_Showcase",
+    "lines": 154
+  },
+  {
+    "project": "Web_Aesthetic_Showcase",
+    "name": "NestedAccordion",
+    "category": "ui",
+    "path": "Web_Aesthetic_Showcase",
+    "lines": 383
+  },
+  {
+    "project": "Web_Aesthetic_Showcase",
+    "name": "StyleSwitcher",
+    "category": "theme",
+    "path": "Web_Aesthetic_Showcase",
+    "lines": 368
   }
 ]
