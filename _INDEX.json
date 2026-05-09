@@ -1,0 +1,2322 @@
+[
+  {
+    "source": "DS_Reference",
+    "name": "AnimatedContainer",
+    "category": "animation",
+    "file": "001_AnimatedContainer.tsx",
+    "lines": 125,
+    "path": "animation/001_AnimatedContainer.tsx"
+  },
+  {
+    "source": "Performance-Lab",
+    "name": "FadeIn",
+    "category": "animation",
+    "file": "001_FadeIn.tsx",
+    "lines": 34,
+    "path": "animation/001_FadeIn.tsx"
+  },
+  {
+    "source": "Performance-Lab",
+    "name": "AnimatedCounter",
+    "category": "animation",
+    "file": "002_plab_AnimatedCounter.tsx",
+    "lines": 61,
+    "path": "animation/002_plab_AnimatedCounter.tsx"
+  },
+  {
+    "source": "P-MAS",
+    "name": "AnimatedCounter",
+    "category": "animation",
+    "file": "002_pmas_AnimatedCounter.tsx",
+    "lines": 30,
+    "path": "animation/002_pmas_AnimatedCounter.tsx"
+  },
+  {
+    "source": "Performance-Lab",
+    "name": "AnimatedProgressBar",
+    "category": "animation",
+    "file": "003_AnimatedProgressBar.tsx",
+    "lines": 44,
+    "path": "animation/003_AnimatedProgressBar.tsx"
+  },
+  {
+    "source": "Portfolio-Conversion",
+    "name": "CursorEffect",
+    "category": "animation",
+    "file": "004_CursorEffect.tsx",
+    "lines": 65,
+    "path": "animation/004_CursorEffect.tsx"
+  },
+  {
+    "source": "Flow-Studio-Pro",
+    "name": "FlowCanvas",
+    "category": "animation",
+    "file": "004_FlowCanvas.tsx",
+    "lines": 340,
+    "path": "animation/004_FlowCanvas.tsx"
+  },
+  {
+    "source": "Web_Aesthetic_Showcase",
+    "name": "GlitchBlock",
+    "category": "animation",
+    "file": "004_GlitchBlock.tsx",
+    "lines": 394,
+    "path": "animation/004_GlitchBlock.tsx"
+  },
+  {
+    "source": "Radix-Template",
+    "name": "AmbientBackground",
+    "category": "animation",
+    "file": "004_radix_AmbientBackground.tsx",
+    "lines": 59,
+    "path": "animation/004_radix_AmbientBackground.tsx"
+  },
+  {
+    "source": "Orchestration_AI_Agents",
+    "name": "AmbientBackground",
+    "category": "animation",
+    "file": "006_orch_AmbientBackground.tsx",
+    "lines": 70,
+    "path": "animation/006_orch_AmbientBackground.tsx"
+  },
+  {
+    "source": "Web_Aesthetic_Showcase",
+    "name": "CrtOverlay",
+    "category": "animation",
+    "file": "008_CrtOverlay.tsx",
+    "lines": 116,
+    "path": "animation/008_CrtOverlay.tsx"
+  },
+  {
+    "source": "Flow-Studio-Pro",
+    "name": "MVPFlowCanvas",
+    "category": "animation",
+    "file": "009_MVPFlowCanvas.tsx",
+    "lines": 31,
+    "path": "animation/009_MVPFlowCanvas.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "DynamicBackground",
+    "category": "animation",
+    "file": "029_DynamicBackground.tsx",
+    "lines": 511,
+    "path": "animation/029_DynamicBackground.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "AnimatedBackground",
+    "category": "animation",
+    "file": "036_AnimatedBackground.tsx",
+    "lines": 169,
+    "path": "animation/036_AnimatedBackground.tsx"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "AmbientGlowRing",
+    "category": "animation",
+    "file": "AmbientGlowRing.tsx",
+    "lines": 68,
+    "path": "animation/AmbientGlowRing.tsx"
+  },
+  {
+    "source": "P-MAS",
+    "name": "AnimatedEdgeParticles",
+    "category": "animation",
+    "file": "AnimatedEdgeParticles.tsx",
+    "lines": 124,
+    "path": "animation/AnimatedEdgeParticles.tsx"
+  },
+  {
+    "source": "P-MAS",
+    "name": "BackgroundParticles",
+    "category": "animation",
+    "file": "BackgroundParticles.tsx",
+    "lines": 125,
+    "path": "animation/BackgroundParticles.tsx"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "CameraRig",
+    "category": "animation",
+    "file": "CameraRig.tsx",
+    "lines": 72,
+    "path": "animation/CameraRig.tsx"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "FloatingParticles",
+    "category": "animation",
+    "file": "FloatingParticles.tsx",
+    "lines": 78,
+    "path": "animation/FloatingParticles.tsx"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "HolographicGridFloor",
+    "category": "animation",
+    "file": "HolographicGridFloor.tsx",
+    "lines": 133,
+    "path": "animation/HolographicGridFloor.tsx"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "PostProcessing",
+    "category": "animation",
+    "file": "PostProcessing.tsx",
+    "lines": 62,
+    "path": "animation/PostProcessing.tsx"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "PulsingEnergyCore",
+    "category": "animation",
+    "file": "PulsingEnergyCore.tsx",
+    "lines": 106,
+    "path": "animation/PulsingEnergyCore.tsx"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "VolumeHeatmap3D",
+    "category": "animation",
+    "file": "VolumeHeatmap3D.tsx",
+    "lines": 105,
+    "path": "animation/VolumeHeatmap3D.tsx"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "WeatherParticles",
+    "category": "animation",
+    "file": "WeatherParticles.tsx",
+    "lines": 100,
+    "path": "animation/WeatherParticles.tsx"
+  },
+  {
+    "source": "Orchestration_AI_Agents",
+    "name": "AnimatedStatusCard",
+    "category": "cards",
+    "file": "001_AnimatedStatusCard.tsx",
+    "lines": 166,
+    "path": "cards/001_AnimatedStatusCard.tsx"
+  },
+  {
+    "source": "Carbon_Design_System",
+    "name": "CategoryTile",
+    "category": "cards",
+    "file": "001_CategoryTile.tsx",
+    "lines": 150,
+    "path": "cards/001_CategoryTile.tsx"
+  },
+  {
+    "source": "Industrial-Style-Guide",
+    "name": "CatalogCard",
+    "category": "cards",
+    "file": "002_CatalogCard.tsx",
+    "lines": 181,
+    "path": "cards/002_CatalogCard.tsx"
+  },
+  {
+    "source": "Carbon_Design_System",
+    "name": "CategoryDetailCard",
+    "category": "cards",
+    "file": "002_CategoryDetailCard.tsx",
+    "lines": 150,
+    "path": "cards/002_CategoryDetailCard.tsx"
+  },
+  {
+    "source": "UI-Stack-Guide",
+    "name": "RatingComparisonCard",
+    "category": "cards",
+    "file": "002_RatingComparisonCard.tsx",
+    "lines": 80,
+    "path": "cards/002_RatingComparisonCard.tsx"
+  },
+  {
+    "source": "UI-Stack-Guide",
+    "name": "EntityCard",
+    "category": "cards",
+    "file": "003_uistack_EntityCard.tsx",
+    "lines": 161,
+    "path": "cards/003_uistack_EntityCard.tsx"
+  },
+  {
+    "source": "UI-Library-Compare",
+    "name": "EntityCard",
+    "category": "cards",
+    "file": "004_uilc_EntityCard.tsx",
+    "lines": 116,
+    "path": "cards/004_uilc_EntityCard.tsx"
+  },
+  {
+    "source": "Radix-Template",
+    "name": "FeatureCard",
+    "category": "cards",
+    "file": "005_FeatureCard.tsx",
+    "lines": 68,
+    "path": "cards/005_FeatureCard.tsx"
+  },
+  {
+    "source": "UI_MATRIX",
+    "name": "ToolStackCard",
+    "category": "cards",
+    "file": "006_ToolStackCard.tsx",
+    "lines": 135,
+    "path": "cards/006_ToolStackCard.tsx"
+  },
+  {
+    "source": "UI-Stack-Guide",
+    "name": "StackCard",
+    "category": "cards",
+    "file": "007_StackCard.tsx",
+    "lines": 81,
+    "path": "cards/007_StackCard.tsx"
+  },
+  {
+    "source": "Code-Snippets-Gallery",
+    "name": "GalleryCard",
+    "category": "cards",
+    "file": "008_GalleryCard.tsx",
+    "lines": 191,
+    "path": "cards/008_GalleryCard.tsx"
+  },
+  {
+    "source": "Orchestration_AI_Agents",
+    "name": "InfoCardGrid",
+    "category": "cards",
+    "file": "008_InfoCardGrid.tsx",
+    "lines": 93,
+    "path": "cards/008_InfoCardGrid.tsx"
+  },
+  {
+    "source": "UI_MATRIX",
+    "name": "ToolCard",
+    "category": "cards",
+    "file": "008_ToolCard.tsx",
+    "lines": 219,
+    "path": "cards/008_ToolCard.tsx"
+  },
+  {
+    "source": "css-grids",
+    "name": "PatternCard",
+    "category": "cards",
+    "file": "010_PatternCard.tsx",
+    "lines": 152,
+    "path": "cards/010_PatternCard.tsx"
+  },
+  {
+    "source": "LLM-MEM-GUIDE",
+    "name": "ChatPanel",
+    "category": "chat",
+    "file": "002_ChatPanel.tsx",
+    "lines": 193,
+    "path": "chat/002_ChatPanel.tsx"
+  },
+  {
+    "source": "Flow-Studio-Pro",
+    "name": "FlowAssistant",
+    "category": "chat",
+    "file": "003_FlowAssistant.tsx",
+    "lines": 654,
+    "path": "chat/003_FlowAssistant.tsx"
+  },
+  {
+    "source": "CodeMan",
+    "name": "ChatMessage",
+    "category": "chat",
+    "file": "004_ChatMessage.tsx",
+    "lines": 285,
+    "path": "chat/004_ChatMessage.tsx"
+  },
+  {
+    "source": "CodeMan",
+    "name": "ChatInput",
+    "category": "chat",
+    "file": "005_ChatInput.tsx",
+    "lines": 282,
+    "path": "chat/005_ChatInput.tsx"
+  },
+  {
+    "source": "color",
+    "name": "Input",
+    "category": "color",
+    "file": "001_Input.tsx",
+    "lines": 686,
+    "path": "color/001_Input.tsx"
+  },
+  {
+    "source": "Code-Realm",
+    "name": "PaletteStudio",
+    "category": "color",
+    "file": "001_PaletteStudio.tsx",
+    "lines": 1000,
+    "path": "color/001_PaletteStudio.tsx"
+  },
+  {
+    "source": "Code-Realm",
+    "name": "GradientGenerator",
+    "category": "color",
+    "file": "002_GradientGenerator.tsx",
+    "lines": 609,
+    "path": "color/002_GradientGenerator.tsx"
+  },
+  {
+    "source": "color",
+    "name": "ColorPalette",
+    "category": "color",
+    "file": "003_ColorPalette.tsx",
+    "lines": 55,
+    "path": "color/003_ColorPalette.tsx"
+  },
+  {
+    "source": "color",
+    "name": "ColorPicker",
+    "category": "color",
+    "file": "004_ColorPicker.tsx",
+    "lines": 452,
+    "path": "color/004_ColorPicker.tsx"
+  },
+  {
+    "source": "color",
+    "name": "ColorSchemePreview",
+    "category": "color",
+    "file": "005_ColorSchemePreview.tsx",
+    "lines": 390,
+    "path": "color/005_ColorSchemePreview.tsx"
+  },
+  {
+    "source": "color",
+    "name": "ColorVariantsList",
+    "category": "color",
+    "file": "006_ColorVariantsList.tsx",
+    "lines": 221,
+    "path": "color/006_ColorVariantsList.tsx"
+  },
+  {
+    "source": "Orchestration_AI_Agents",
+    "name": "BadgeCloud",
+    "category": "color",
+    "file": "007_BadgeCloud.tsx",
+    "lines": 63,
+    "path": "color/007_BadgeCloud.tsx"
+  },
+  {
+    "source": "color",
+    "name": "ContrastPicker",
+    "category": "color",
+    "file": "007_ContrastPicker.tsx",
+    "lines": 355,
+    "path": "color/007_ContrastPicker.tsx"
+  },
+  {
+    "source": "color",
+    "name": "ContrastValidator",
+    "category": "color",
+    "file": "008_ContrastValidator.tsx",
+    "lines": 380,
+    "path": "color/008_ContrastValidator.tsx"
+  },
+  {
+    "source": "color",
+    "name": "ColorPickerPanel",
+    "category": "color",
+    "file": "010_ColorPickerPanel.tsx",
+    "lines": 1253,
+    "path": "color/010_ColorPickerPanel.tsx"
+  },
+  {
+    "source": "LLM-Memory-Guide",
+    "name": "QuickQuiz",
+    "category": "content",
+    "file": "002_QuickQuiz.tsx",
+    "lines": 321,
+    "path": "content/002_QuickQuiz.tsx"
+  },
+  {
+    "source": "Portfolio-Conversion",
+    "name": "Contact",
+    "category": "content",
+    "file": "003_Contact.tsx",
+    "lines": 79,
+    "path": "content/003_Contact.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "IconLogo",
+    "category": "content",
+    "file": "003_IconLogo.tsx",
+    "lines": 1323,
+    "path": "content/003_IconLogo.tsx"
+  },
+  {
+    "source": "Wiki-Codex-v2",
+    "name": "StepCard",
+    "category": "content",
+    "file": "003_StepCard.tsx",
+    "lines": 75,
+    "path": "content/003_StepCard.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "SectionHeader",
+    "category": "content",
+    "file": "003_dsref_SectionHeader.tsx",
+    "lines": 65,
+    "path": "content/003_dsref_SectionHeader.tsx"
+  },
+  {
+    "source": "UI_MATRIX",
+    "name": "Glossary",
+    "category": "content",
+    "file": "004_Glossary.tsx",
+    "lines": 160,
+    "path": "content/004_Glossary.tsx"
+  },
+  {
+    "source": "LLM-Memory-Guide",
+    "name": "GuidedTour",
+    "category": "content",
+    "file": "004_GuidedTour.tsx",
+    "lines": 319,
+    "path": "content/004_GuidedTour.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "ComparisonTable",
+    "category": "content",
+    "file": "004_dsref_ComparisonTable.tsx",
+    "lines": 164,
+    "path": "content/004_dsref_ComparisonTable.tsx"
+  },
+  {
+    "source": "Portfolio-Conversion",
+    "name": "Experience",
+    "category": "content",
+    "file": "005_Experience.tsx",
+    "lines": 193,
+    "path": "content/005_Experience.tsx"
+  },
+  {
+    "source": "Portfolio-Conversion",
+    "name": "HowIWork",
+    "category": "content",
+    "file": "008_HowIWork.tsx",
+    "lines": 169,
+    "path": "content/008_HowIWork.tsx"
+  },
+  {
+    "source": "LLM-Memory-Guide",
+    "name": "TechniqueBattle",
+    "category": "content",
+    "file": "008_TechniqueBattle.tsx",
+    "lines": 1774,
+    "path": "content/008_TechniqueBattle.tsx"
+  },
+  {
+    "source": "CodeMan",
+    "name": "WelcomeScreen",
+    "category": "content",
+    "file": "008_WelcomeScreen.tsx",
+    "lines": 201,
+    "path": "content/008_WelcomeScreen.tsx"
+  },
+  {
+    "source": "LLM-Memory-Guide",
+    "name": "LearningPath",
+    "category": "content",
+    "file": "009_LearningPath.tsx",
+    "lines": 971,
+    "path": "content/009_LearningPath.tsx"
+  },
+  {
+    "source": "UI_MATRIX",
+    "name": "UsageGuide",
+    "category": "content",
+    "file": "009_UsageGuide.tsx",
+    "lines": 93,
+    "path": "content/009_UsageGuide.tsx"
+  },
+  {
+    "source": "LLM-Memory-Guide",
+    "name": "FaqAccordion",
+    "category": "content",
+    "file": "010_FaqAccordion.tsx",
+    "lines": 806,
+    "path": "content/010_FaqAccordion.tsx"
+  },
+  {
+    "source": "UI_MATRIX",
+    "name": "WarningsBlock",
+    "category": "content",
+    "file": "010_WarningsBlock.tsx",
+    "lines": 76,
+    "path": "content/010_WarningsBlock.tsx"
+  },
+  {
+    "source": "css-grids",
+    "name": "SectionTitle",
+    "category": "content",
+    "file": "011_SectionTitle.tsx",
+    "lines": 82,
+    "path": "content/011_SectionTitle.tsx"
+  },
+  {
+    "source": "css-grids",
+    "name": "GridItem",
+    "category": "content",
+    "file": "012_GridItem.tsx",
+    "lines": 36,
+    "path": "content/012_GridItem.tsx"
+  },
+  {
+    "source": "LLM-Memory-Guide",
+    "name": "PromptTemplates",
+    "category": "content",
+    "file": "012_PromptTemplates.tsx",
+    "lines": 724,
+    "path": "content/012_PromptTemplates.tsx"
+  },
+  {
+    "source": "Portfolio-Conversion",
+    "name": "Projects",
+    "category": "content",
+    "file": "013_Projects.tsx",
+    "lines": 418,
+    "path": "content/013_Projects.tsx"
+  },
+  {
+    "source": "LLM-Memory-Guide",
+    "name": "QuickReference",
+    "category": "content",
+    "file": "014_QuickReference.tsx",
+    "lines": 687,
+    "path": "content/014_QuickReference.tsx"
+  },
+  {
+    "source": "Portfolio-Conversion",
+    "name": "Skills",
+    "category": "content",
+    "file": "014_Skills.tsx",
+    "lines": 124,
+    "path": "content/014_Skills.tsx"
+  },
+  {
+    "source": "LLM-Memory-Guide",
+    "name": "ComparisonMatrix",
+    "category": "content",
+    "file": "015_ComparisonMatrix.tsx",
+    "lines": 1305,
+    "path": "content/015_ComparisonMatrix.tsx"
+  },
+  {
+    "source": "Portfolio-Conversion",
+    "name": "Statistics",
+    "category": "content",
+    "file": "015_Statistics.tsx",
+    "lines": 155,
+    "path": "content/015_Statistics.tsx"
+  },
+  {
+    "source": "Portfolio-Conversion",
+    "name": "Testimonials",
+    "category": "content",
+    "file": "016_Testimonials.tsx",
+    "lines": 164,
+    "path": "content/016_Testimonials.tsx"
+  },
+  {
+    "source": "Radix-Template",
+    "name": "SectionHeader",
+    "category": "content",
+    "file": "030_radix_SectionHeader.tsx",
+    "lines": 29,
+    "path": "content/030_radix_SectionHeader.tsx"
+  },
+  {
+    "source": "Wiki-Codex-v2",
+    "name": "CodeBlock",
+    "category": "content",
+    "file": "031_wiki_CodeBlock.tsx",
+    "lines": 70,
+    "path": "content/031_wiki_CodeBlock.tsx"
+  },
+  {
+    "source": "UI-Library-Compare",
+    "name": "ComparisonTable",
+    "category": "content",
+    "file": "038_uilc_ComparisonTable.tsx",
+    "lines": 119,
+    "path": "content/038_uilc_ComparisonTable.tsx"
+  },
+  {
+    "source": "UI_MATRIX",
+    "name": "CompatibilityMatrix",
+    "category": "data-display",
+    "file": "002_CompatibilityMatrix.tsx",
+    "lines": 195,
+    "path": "data-display/002_CompatibilityMatrix.tsx"
+  },
+  {
+    "source": "CodeMan",
+    "name": "CapacityMeter",
+    "category": "data-display",
+    "file": "003_CapacityMeter.tsx",
+    "lines": 114,
+    "path": "data-display/003_CapacityMeter.tsx"
+  },
+  {
+    "source": "Carbon_Design_System",
+    "name": "StatsRow",
+    "category": "data-display",
+    "file": "003_StatsRow.tsx",
+    "lines": 94,
+    "path": "data-display/003_StatsRow.tsx"
+  },
+  {
+    "source": "Performance-Lab",
+    "name": "SortIcon",
+    "category": "data-display",
+    "file": "004_SortIcon.tsx",
+    "lines": 27,
+    "path": "data-display/004_SortIcon.tsx"
+  },
+  {
+    "source": "LLM-MEM-GUIDE",
+    "name": "VerticalTimeline",
+    "category": "data-display",
+    "file": "004_VerticalTimeline.tsx",
+    "lines": 126,
+    "path": "data-display/004_VerticalTimeline.tsx"
+  },
+  {
+    "source": "LLM-Memory-Guide",
+    "name": "CostSimulator",
+    "category": "data-display",
+    "file": "005_CostSimulator.tsx",
+    "lines": 1321,
+    "path": "data-display/005_CostSimulator.tsx"
+  },
+  {
+    "source": "LLM-MEM-GUIDE",
+    "name": "MetricBar",
+    "category": "data-display",
+    "file": "005_MetricBar.tsx",
+    "lines": 91,
+    "path": "data-display/005_MetricBar.tsx"
+  },
+  {
+    "source": "Performance-Lab",
+    "name": "ComplexityBadge",
+    "category": "data-display",
+    "file": "006_ComplexityBadge.tsx",
+    "lines": 43,
+    "path": "data-display/006_ComplexityBadge.tsx"
+  },
+  {
+    "source": "Carbon_Design_System",
+    "name": "ConnectionBadge",
+    "category": "data-display",
+    "file": "008_ConnectionBadge.tsx",
+    "lines": 100,
+    "path": "data-display/008_ConnectionBadge.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "StatsGrid",
+    "category": "data-display",
+    "file": "037_StatsGrid.tsx",
+    "lines": 101,
+    "path": "data-display/037_StatsGrid.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "RankingList",
+    "category": "data-display",
+    "file": "039_RankingList.tsx",
+    "lines": 101,
+    "path": "data-display/039_RankingList.tsx"
+  },
+  {
+    "source": "P-MAS",
+    "name": "KPIStrip",
+    "category": "data-display",
+    "file": "KPIStrip.tsx",
+    "lines": 39,
+    "path": "data-display/KPIStrip.tsx"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "LiveTicker",
+    "category": "data-display",
+    "file": "LiveTicker.tsx",
+    "lines": 123,
+    "path": "data-display/LiveTicker.tsx"
+  },
+  {
+    "source": "P-MAS",
+    "name": "PerformanceDashboard",
+    "category": "data-display",
+    "file": "PerformanceDashboard.tsx",
+    "lines": 143,
+    "path": "data-display/PerformanceDashboard.tsx"
+  },
+  {
+    "source": "P-MAS",
+    "name": "RecentActivityTimeline",
+    "category": "data-display",
+    "file": "RecentActivityTimeline.tsx",
+    "lines": 66,
+    "path": "data-display/RecentActivityTimeline.tsx"
+  },
+  {
+    "source": "P-MAS",
+    "name": "SystemHealthMonitor",
+    "category": "data-display",
+    "file": "SystemHealthMonitor.tsx",
+    "lines": 116,
+    "path": "data-display/SystemHealthMonitor.tsx"
+  },
+  {
+    "source": "Wiki-Codex-v2",
+    "name": "TerminalFrame",
+    "category": "dev-tools",
+    "file": "001_TerminalFrame.tsx",
+    "lines": 62,
+    "path": "dev-tools/001_TerminalFrame.tsx"
+  },
+  {
+    "source": "Radix-Template",
+    "name": "CodeWindow",
+    "category": "dev-tools",
+    "file": "002_CodeWindow.tsx",
+    "lines": 37,
+    "path": "dev-tools/002_CodeWindow.tsx"
+  },
+  {
+    "source": "Wiki-Codex-v2",
+    "name": "CopyableCodeBlock",
+    "category": "dev-tools",
+    "file": "002_CopyableCodeBlock.tsx",
+    "lines": 73,
+    "path": "dev-tools/002_CopyableCodeBlock.tsx"
+  },
+  {
+    "source": "Code-Realm",
+    "name": "ShadowGenerator",
+    "category": "dev-tools",
+    "file": "003_ShadowGenerator.tsx",
+    "lines": 628,
+    "path": "dev-tools/003_ShadowGenerator.tsx"
+  },
+  {
+    "source": "Code-Realm",
+    "name": "BorderGenerator",
+    "category": "dev-tools",
+    "file": "004_BorderGenerator.tsx",
+    "lines": 612,
+    "path": "dev-tools/004_BorderGenerator.tsx"
+  },
+  {
+    "source": "Code-Realm",
+    "name": "AnimationGenerator",
+    "category": "dev-tools",
+    "file": "005_AnimationGenerator.tsx",
+    "lines": 747,
+    "path": "dev-tools/005_AnimationGenerator.tsx"
+  },
+  {
+    "source": "Performance-Lab",
+    "name": "CodeDiff",
+    "category": "dev-tools",
+    "file": "005_CodeDiff.tsx",
+    "lines": 155,
+    "path": "dev-tools/005_CodeDiff.tsx"
+  },
+  {
+    "source": "Code-Realm",
+    "name": "CssFiltersGenerator",
+    "category": "dev-tools",
+    "file": "006_CssFiltersGenerator.tsx",
+    "lines": 590,
+    "path": "dev-tools/006_CssFiltersGenerator.tsx"
+  },
+  {
+    "source": "Code-Realm",
+    "name": "CodePlayground",
+    "category": "dev-tools",
+    "file": "008_CodePlayground.tsx",
+    "lines": 553,
+    "path": "dev-tools/008_CodePlayground.tsx"
+  },
+  {
+    "source": "Code-Realm",
+    "name": "SvgEditor",
+    "category": "dev-tools",
+    "file": "009_SvgEditor.tsx",
+    "lines": 641,
+    "path": "dev-tools/009_SvgEditor.tsx"
+  },
+  {
+    "source": "Performance-Lab",
+    "name": "CodeBlock",
+    "category": "dev-tools",
+    "file": "009_plab_CodeBlock.tsx",
+    "lines": 142,
+    "path": "dev-tools/009_plab_CodeBlock.tsx"
+  },
+  {
+    "source": "Code-Realm",
+    "name": "CssSnippets",
+    "category": "dev-tools",
+    "file": "010_CssSnippets.tsx",
+    "lines": 248,
+    "path": "dev-tools/010_CssSnippets.tsx"
+  },
+  {
+    "source": "Code-Realm",
+    "name": "MarkdownPreview",
+    "category": "dev-tools",
+    "file": "011_MarkdownPreview.tsx",
+    "lines": 551,
+    "path": "dev-tools/011_MarkdownPreview.tsx"
+  },
+  {
+    "source": "Code-Realm",
+    "name": "Base64Tool",
+    "category": "dev-tools",
+    "file": "012_Base64Tool.tsx",
+    "lines": 571,
+    "path": "dev-tools/012_Base64Tool.tsx"
+  },
+  {
+    "source": "Code-Realm",
+    "name": "UnitConverter",
+    "category": "dev-tools",
+    "file": "013_UnitConverter.tsx",
+    "lines": 525,
+    "path": "dev-tools/013_UnitConverter.tsx"
+  },
+  {
+    "source": "Code-Realm",
+    "name": "RegexTester",
+    "category": "dev-tools",
+    "file": "014_RegexTester.tsx",
+    "lines": 498,
+    "path": "dev-tools/014_RegexTester.tsx"
+  },
+  {
+    "source": "Code-Realm",
+    "name": "JsonFormatter",
+    "category": "dev-tools",
+    "file": "015_JsonFormatter.tsx",
+    "lines": 699,
+    "path": "dev-tools/015_JsonFormatter.tsx"
+  },
+  {
+    "source": "Code-Realm",
+    "name": "TypographyTool",
+    "category": "dev-tools",
+    "file": "016_TypographyTool.tsx",
+    "lines": 632,
+    "path": "dev-tools/016_TypographyTool.tsx"
+  },
+  {
+    "source": "Code-Realm",
+    "name": "FlexboxGridTool",
+    "category": "dev-tools",
+    "file": "017_FlexboxGridTool.tsx",
+    "lines": 497,
+    "path": "dev-tools/017_FlexboxGridTool.tsx"
+  },
+  {
+    "source": "Code-Realm",
+    "name": "Transform3dTool",
+    "category": "dev-tools",
+    "file": "018_Transform3dTool.tsx",
+    "lines": 471,
+    "path": "dev-tools/018_Transform3dTool.tsx"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "ScreenshotExport",
+    "category": "dev-tools",
+    "file": "ScreenshotExport.tsx",
+    "lines": 91,
+    "path": "dev-tools/ScreenshotExport.tsx"
+  },
+  {
+    "source": "LLM-MEM-GUIDE",
+    "name": "shared",
+    "category": "dev-tools",
+    "file": "shared.ts",
+    "lines": 405,
+    "path": "dev-tools/shared.ts"
+  },
+  {
+    "source": "LLM-Memory-Guide",
+    "name": "ComponentErrorBoundary",
+    "category": "error-handling",
+    "file": "001_ComponentErrorBoundary.tsx",
+    "lines": 70,
+    "path": "error-handling/001_ComponentErrorBoundary.tsx"
+  },
+  {
+    "source": "CodeMan",
+    "name": "ErrorBoundary",
+    "category": "error-handling",
+    "file": "006_ErrorBoundary.tsx",
+    "lines": 104,
+    "path": "error-handling/006_ErrorBoundary.tsx"
+  },
+  {
+    "source": "Performance-Lab",
+    "name": "AchievementToast",
+    "category": "feedback",
+    "file": "007_AchievementToast.tsx",
+    "lines": 84,
+    "path": "feedback/007_AchievementToast.tsx"
+  },
+  {
+    "source": "Portfolio-Conversion",
+    "name": "PageLoader",
+    "category": "feedback",
+    "file": "010_PageLoader.tsx",
+    "lines": 100,
+    "path": "feedback/010_PageLoader.tsx"
+  },
+  {
+    "source": "Wiki-Codex-v2",
+    "name": "EmptyState",
+    "category": "feedback",
+    "file": "013_EmptyState.tsx",
+    "lines": 66,
+    "path": "feedback/013_EmptyState.tsx"
+  },
+  {
+    "source": "Orchestration_AI_Agents",
+    "name": "AnimatedFlowConnector",
+    "category": "flow",
+    "file": "002_AnimatedFlowConnector.tsx",
+    "lines": 112,
+    "path": "flow/002_AnimatedFlowConnector.tsx"
+  },
+  {
+    "source": "Learning-Plan",
+    "name": "FlowNodeShell",
+    "category": "flow",
+    "file": "003_FlowNodeShell.tsx",
+    "lines": 267,
+    "path": "flow/003_FlowNodeShell.tsx"
+  },
+  {
+    "source": "Flow-Studio-Pro",
+    "name": "FlowNode",
+    "category": "flow",
+    "file": "005_FlowNode.tsx",
+    "lines": 242,
+    "path": "flow/005_FlowNode.tsx"
+  },
+  {
+    "source": "LLM-Memory-Guide",
+    "name": "ArchitectureBuilder",
+    "category": "flow",
+    "file": "006_ArchitectureBuilder.tsx",
+    "lines": 1655,
+    "path": "flow/006_ArchitectureBuilder.tsx"
+  },
+  {
+    "source": "P-MAS",
+    "name": "FeedbackLoopArrow",
+    "category": "flow",
+    "file": "FeedbackLoopArrow.tsx",
+    "lines": 61,
+    "path": "flow/FeedbackLoopArrow.tsx"
+  },
+  {
+    "source": "P-MAS",
+    "name": "MiniPipeline",
+    "category": "flow",
+    "file": "MiniPipeline.tsx",
+    "lines": 32,
+    "path": "flow/MiniPipeline.tsx"
+  },
+  {
+    "source": "P-MAS",
+    "name": "PipelineArrow",
+    "category": "flow",
+    "file": "PipelineArrow.tsx",
+    "lines": 28,
+    "path": "flow/PipelineArrow.tsx"
+  },
+  {
+    "source": "P-MAS",
+    "name": "PipelineStepNode",
+    "category": "flow",
+    "file": "PipelineStepNode.tsx",
+    "lines": 75,
+    "path": "flow/PipelineStepNode.tsx"
+  },
+  {
+    "source": "UI_MATRIX",
+    "name": "CategoryFilter",
+    "category": "forms",
+    "file": "001_CategoryFilter.tsx",
+    "lines": 58,
+    "path": "forms/001_CategoryFilter.tsx"
+  },
+  {
+    "source": "UI-Library-Compare",
+    "name": "FilterPanel",
+    "category": "forms",
+    "file": "002_FilterPanel.tsx",
+    "lines": 102,
+    "path": "forms/002_FilterPanel.tsx"
+  },
+  {
+    "source": "UI_MATRIX",
+    "name": "EcosystemFilter",
+    "category": "forms",
+    "file": "003_EcosystemFilter.tsx",
+    "lines": 61,
+    "path": "forms/003_EcosystemFilter.tsx"
+  },
+  {
+    "source": "css-grids",
+    "name": "LayoutSelector",
+    "category": "forms",
+    "file": "003_LayoutSelector.tsx",
+    "lines": 185,
+    "path": "forms/003_LayoutSelector.tsx"
+  },
+  {
+    "source": "css-grids",
+    "name": "GoalSelector",
+    "category": "forms",
+    "file": "004_GoalSelector.tsx",
+    "lines": 37,
+    "path": "forms/004_GoalSelector.tsx"
+  },
+  {
+    "source": "css-grids",
+    "name": "ThemeSettings",
+    "category": "forms",
+    "file": "005_ThemeSettings.tsx",
+    "lines": 146,
+    "path": "forms/005_ThemeSettings.tsx"
+  },
+  {
+    "source": "Code-Snippets-Gallery",
+    "name": "FilterBar",
+    "category": "forms",
+    "file": "006_FilterBar.tsx",
+    "lines": 100,
+    "path": "forms/006_FilterBar.tsx"
+  },
+  {
+    "source": "css-grids",
+    "name": "layouts",
+    "category": "forms",
+    "file": "006_layouts.ts",
+    "lines": 515,
+    "path": "forms/006_layouts.ts"
+  },
+  {
+    "source": "Flow-Studio-Pro",
+    "name": "NodePalette",
+    "category": "forms",
+    "file": "007_NodePalette.tsx",
+    "lines": 193,
+    "path": "forms/007_NodePalette.tsx"
+  },
+  {
+    "source": "Code-Snippets-Gallery",
+    "name": "PreviewHTMLGenerator",
+    "category": "hooks",
+    "file": "002_PreviewHTMLGenerator.ts",
+    "lines": 193,
+    "path": "hooks/002_PreviewHTMLGenerator.ts"
+  },
+  {
+    "source": "LLM-MEM-GUIDE",
+    "name": "UseWeightedScorer",
+    "category": "hooks",
+    "file": "003_UseWeightedScorer.ts",
+    "lines": 99,
+    "path": "hooks/003_UseWeightedScorer.ts"
+  },
+  {
+    "source": "Orchestration_AI_Agents",
+    "name": "PipelineSimulator",
+    "category": "hooks",
+    "file": "004_PipelineSimulator.tsx",
+    "lines": 228,
+    "path": "hooks/004_PipelineSimulator.tsx"
+  },
+  {
+    "source": "Code-Snippets-Gallery",
+    "name": "RateLimiter",
+    "category": "hooks",
+    "file": "004_RateLimiter.ts",
+    "lines": 86,
+    "path": "hooks/004_RateLimiter.ts"
+  },
+  {
+    "source": "Carbon_Design_System",
+    "name": "UseFilteredSections",
+    "category": "hooks",
+    "file": "004_UseFilteredSections.ts",
+    "lines": 98,
+    "path": "hooks/004_UseFilteredSections.ts"
+  },
+  {
+    "source": "Code-Snippets-Gallery",
+    "name": "ApiKeyAuth",
+    "category": "hooks",
+    "file": "005_ApiKeyAuth.ts",
+    "lines": 61,
+    "path": "hooks/005_ApiKeyAuth.ts"
+  },
+  {
+    "source": "Wiki-Codex-v2",
+    "name": "UseGroupedItems",
+    "category": "hooks",
+    "file": "005_UseGroupedItems.tsx",
+    "lines": 103,
+    "path": "hooks/005_UseGroupedItems.tsx"
+  },
+  {
+    "source": "Wiki-Codex-v2",
+    "name": "UseIsMobile",
+    "category": "hooks",
+    "file": "006_UseIsMobile.tsx",
+    "lines": 37,
+    "path": "hooks/006_UseIsMobile.tsx"
+  },
+  {
+    "source": "LLM-MEM-GUIDE",
+    "name": "UtilityTools",
+    "category": "hooks",
+    "file": "006_UtilityTools.ts",
+    "lines": 229,
+    "path": "hooks/006_UtilityTools.ts"
+  },
+  {
+    "source": "Wiki-Codex-v2",
+    "name": "SlavicPluralize",
+    "category": "hooks",
+    "file": "007_SlavicPluralize.ts",
+    "lines": 25,
+    "path": "hooks/007_SlavicPluralize.ts"
+  },
+  {
+    "source": "Carbon_Design_System",
+    "name": "UseIconRegistry",
+    "category": "hooks",
+    "file": "007_UseIconRegistry.ts",
+    "lines": 133,
+    "path": "hooks/007_UseIconRegistry.ts"
+  },
+  {
+    "source": "css-grids",
+    "name": "useAppStore",
+    "category": "hooks",
+    "file": "007_useAppStore.ts",
+    "lines": 165,
+    "path": "hooks/007_useAppStore.ts"
+  },
+  {
+    "source": "Wiki-Codex-v2",
+    "name": "FormatFileSize",
+    "category": "hooks",
+    "file": "008_FormatFileSize.ts",
+    "lines": 41,
+    "path": "hooks/008_FormatFileSize.ts"
+  },
+  {
+    "source": "Wiki-Codex-v2",
+    "name": "TextSanitizer",
+    "category": "hooks",
+    "file": "009_TextSanitizer.ts",
+    "lines": 85,
+    "path": "hooks/009_TextSanitizer.ts"
+  },
+  {
+    "source": "Wiki-Codex-v2",
+    "name": "UseKeyboardShortcuts",
+    "category": "hooks",
+    "file": "010_UseKeyboardShortcuts.tsx",
+    "lines": 105,
+    "path": "hooks/010_UseKeyboardShortcuts.tsx"
+  },
+  {
+    "source": "Performance-Lab",
+    "name": "usePersisted",
+    "category": "hooks",
+    "file": "010_usePersisted.ts",
+    "lines": 52,
+    "path": "hooks/010_usePersisted.ts"
+  },
+  {
+    "source": "Performance-Lab",
+    "name": "UtilityParsers",
+    "category": "hooks",
+    "file": "011_UtilityParsers.ts",
+    "lines": 45,
+    "path": "hooks/011_UtilityParsers.ts"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "UseNavigationStore",
+    "category": "hooks",
+    "file": "040_UseNavigationStore.ts",
+    "lines": 63,
+    "path": "hooks/040_UseNavigationStore.ts"
+  },
+  {
+    "source": "P-MAS",
+    "name": "CircuitBreaker",
+    "category": "hooks",
+    "file": "CircuitBreaker.ts",
+    "lines": 132,
+    "path": "hooks/CircuitBreaker.ts"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "CompositeScoringEngine",
+    "category": "hooks",
+    "file": "CompositeScoringEngine.ts",
+    "lines": 322,
+    "path": "hooks/CompositeScoringEngine.ts"
+  },
+  {
+    "source": "P-MAS",
+    "name": "FallbackManager",
+    "category": "hooks",
+    "file": "FallbackManager.ts",
+    "lines": 270,
+    "path": "hooks/FallbackManager.ts"
+  },
+  {
+    "source": "P-MAS",
+    "name": "HealthCheck",
+    "category": "hooks",
+    "file": "HealthCheck.ts",
+    "lines": 247,
+    "path": "hooks/HealthCheck.ts"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "HelixMath",
+    "category": "hooks",
+    "file": "HelixMath.ts",
+    "lines": 205,
+    "path": "hooks/HelixMath.ts"
+  },
+  {
+    "source": "P-MAS",
+    "name": "ResilienceSuite",
+    "category": "hooks",
+    "file": "ResilienceSuite.ts",
+    "lines": 45,
+    "path": "hooks/ResilienceSuite.ts"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "TradeSimulationStore",
+    "category": "hooks",
+    "file": "TradeSimulationStore.ts",
+    "lines": 250,
+    "path": "hooks/TradeSimulationStore.ts"
+  },
+  {
+    "source": "UI-Library-Compare",
+    "name": "LanguageProvider",
+    "category": "i18n",
+    "file": "001_LanguageProvider.tsx",
+    "lines": 77,
+    "path": "i18n/001_LanguageProvider.tsx"
+  },
+  {
+    "source": "Code-Snippets-Gallery",
+    "name": "UseLocaleSync",
+    "category": "i18n",
+    "file": "003_UseLocaleSync.tsx",
+    "lines": 126,
+    "path": "i18n/003_UseLocaleSync.tsx"
+  },
+  {
+    "source": "Code-Snippets-Gallery",
+    "name": "TypeSafeI18n",
+    "category": "i18n",
+    "file": "011_TypeSafeI18n.ts",
+    "lines": 94,
+    "path": "i18n/011_TypeSafeI18n.ts"
+  },
+  {
+    "source": "Learning-Plan",
+    "name": "FloatingItem",
+    "category": "interactive",
+    "file": "001_FloatingItem.tsx",
+    "lines": 123,
+    "path": "interactive/001_FloatingItem.tsx"
+  },
+  {
+    "source": "dev.studio_2_portfolio",
+    "name": "ImageShowcase",
+    "category": "interactive",
+    "file": "001_ImageShowcase.tsx",
+    "lines": 255,
+    "path": "interactive/001_ImageShowcase.tsx"
+  },
+  {
+    "source": "Web_Aesthetic_Showcase",
+    "name": "RetroTerminal",
+    "category": "interactive",
+    "file": "001_RetroTerminal.tsx",
+    "lines": 554,
+    "path": "interactive/001_RetroTerminal.tsx"
+  },
+  {
+    "source": "CodeMan",
+    "name": "SelectElementButton",
+    "category": "interactive",
+    "file": "001_SelectElementButton.tsx",
+    "lines": 389,
+    "path": "interactive/001_SelectElementButton.tsx"
+  },
+  {
+    "source": "LLM-Memory-Guide",
+    "name": "DecisionTree",
+    "category": "interactive",
+    "file": "003_DecisionTree.tsx",
+    "lines": 234,
+    "path": "interactive/003_DecisionTree.tsx"
+  },
+  {
+    "source": "Web_Aesthetic_Showcase",
+    "name": "SciFiHUD",
+    "category": "interactive",
+    "file": "003_SciFiHUD.tsx",
+    "lines": 951,
+    "path": "interactive/003_SciFiHUD.tsx"
+  },
+  {
+    "source": "Wiki-Codex-v2",
+    "name": "SelectionActionBar",
+    "category": "interactive",
+    "file": "004_SelectionActionBar.tsx",
+    "lines": 93,
+    "path": "interactive/004_SelectionActionBar.tsx"
+  },
+  {
+    "source": "Web_Aesthetic_Showcase",
+    "name": "BrutalistWidgets",
+    "category": "interactive",
+    "file": "005_BrutalistWidgets.tsx",
+    "lines": 963,
+    "path": "interactive/005_BrutalistWidgets.tsx"
+  },
+  {
+    "source": "Web_Aesthetic_Showcase",
+    "name": "CliBlock",
+    "category": "interactive",
+    "file": "007_CliBlock.tsx",
+    "lines": 448,
+    "path": "interactive/007_CliBlock.tsx"
+  },
+  {
+    "source": "color",
+    "name": "ImageWithFallback",
+    "category": "interactive",
+    "file": "009_ImageWithFallback.tsx",
+    "lines": 28,
+    "path": "interactive/009_ImageWithFallback.tsx"
+  },
+  {
+    "source": "Web_Aesthetic_Showcase",
+    "name": "NestedAccordion",
+    "category": "interactive",
+    "file": "010_NestedAccordion.tsx",
+    "lines": 383,
+    "path": "interactive/010_NestedAccordion.tsx"
+  },
+  {
+    "source": "LLM-Memory-Guide",
+    "name": "InteractivePlayground",
+    "category": "interactive",
+    "file": "013_InteractivePlayground.tsx",
+    "lines": 598,
+    "path": "interactive/013_InteractivePlayground.tsx"
+  },
+  {
+    "source": "dev.studio_2_portfolio",
+    "name": "Button",
+    "category": "interactive",
+    "file": "024_Button.tsx",
+    "lines": 690,
+    "path": "interactive/024_Button.tsx"
+  },
+  {
+    "source": "P-MAS",
+    "name": "CollapsibleSection",
+    "category": "interactive",
+    "file": "CollapsibleSection.tsx",
+    "lines": 52,
+    "path": "interactive/CollapsibleSection.tsx"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "RiskCalculator",
+    "category": "interactive",
+    "file": "RiskCalculator.tsx",
+    "lines": 231,
+    "path": "interactive/RiskCalculator.tsx"
+  },
+  {
+    "source": "DesignSystems-Hub-industrial",
+    "name": "ThreeColumnBrowser",
+    "category": "layout",
+    "file": "001_ThreeColumnBrowser.tsx",
+    "lines": 286,
+    "path": "layout/001_ThreeColumnBrowser.tsx"
+  },
+  {
+    "source": "dev.studio_2_portfolio",
+    "name": "ProcessSection",
+    "category": "layout",
+    "file": "002_ProcessSection.tsx",
+    "lines": 213,
+    "path": "layout/002_ProcessSection.tsx"
+  },
+  {
+    "source": "Learning-Plan",
+    "name": "QuickActions",
+    "category": "layout",
+    "file": "002_QuickActions.tsx",
+    "lines": 176,
+    "path": "layout/002_QuickActions.tsx"
+  },
+  {
+    "source": "dev.studio_2_portfolio",
+    "name": "StatsSection",
+    "category": "layout",
+    "file": "003_StatsSection.tsx",
+    "lines": 160,
+    "path": "layout/003_StatsSection.tsx"
+  },
+  {
+    "source": "UI_MATRIX",
+    "name": "StacksSection",
+    "category": "layout",
+    "file": "005_StacksSection.tsx",
+    "lines": 87,
+    "path": "layout/005_StacksSection.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "AppLayout",
+    "category": "layout",
+    "file": "006_AppLayout.tsx",
+    "lines": 54,
+    "path": "layout/006_AppLayout.tsx"
+  },
+  {
+    "source": "Radix-Template",
+    "name": "CTABanner",
+    "category": "layout",
+    "file": "006_CTABanner.tsx",
+    "lines": 74,
+    "path": "layout/006_CTABanner.tsx"
+  },
+  {
+    "source": "UI-Stack-Guide",
+    "name": "FourColumnBrowser",
+    "category": "layout",
+    "file": "006_FourColumnBrowser.tsx",
+    "lines": 285,
+    "path": "layout/006_FourColumnBrowser.tsx"
+  },
+  {
+    "source": "Web_Aesthetic_Showcase",
+    "name": "IdeLayout",
+    "category": "layout",
+    "file": "006_IdeLayout.tsx",
+    "lines": 899,
+    "path": "layout/006_IdeLayout.tsx"
+  },
+  {
+    "source": "Portfolio-Conversion",
+    "name": "Hero",
+    "category": "layout",
+    "file": "007_Hero.tsx",
+    "lines": 183,
+    "path": "layout/007_Hero.tsx"
+  },
+  {
+    "source": "CodeMan",
+    "name": "TerminalHeader",
+    "category": "layout",
+    "file": "007_TerminalHeader.tsx",
+    "lines": 173,
+    "path": "layout/007_TerminalHeader.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "Footer",
+    "category": "layout",
+    "file": "007_dsref_Footer.tsx",
+    "lines": 79,
+    "path": "layout/007_dsref_Footer.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "Header",
+    "category": "layout",
+    "file": "008_Header.tsx",
+    "lines": 93,
+    "path": "layout/008_Header.tsx"
+  },
+  {
+    "source": "css-grids",
+    "name": "layout",
+    "category": "layout",
+    "file": "008_layout.ts",
+    "lines": 62,
+    "path": "layout/008_layout.ts"
+  },
+  {
+    "source": "Portfolio-Conversion",
+    "name": "Navigation",
+    "category": "layout",
+    "file": "009_Navigation.tsx",
+    "lines": 177,
+    "path": "layout/009_Navigation.tsx"
+  },
+  {
+    "source": "Code-Snippets-Gallery",
+    "name": "StaggeredHero",
+    "category": "layout",
+    "file": "009_StaggeredHero.tsx",
+    "lines": 146,
+    "path": "layout/009_StaggeredHero.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "Sidebar",
+    "category": "layout",
+    "file": "009_dsref_Sidebar.tsx",
+    "lines": 164,
+    "path": "layout/009_dsref_Sidebar.tsx"
+  },
+  {
+    "source": "css-grids",
+    "name": "page",
+    "category": "layout",
+    "file": "009_page.tsx",
+    "lines": 306,
+    "path": "layout/009_page.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "AcademySection",
+    "category": "layout",
+    "file": "010_AcademySection.tsx",
+    "lines": 136,
+    "path": "layout/010_AcademySection.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "ComparisonSection",
+    "category": "layout",
+    "file": "011_ComparisonSection.tsx",
+    "lines": 128,
+    "path": "layout/011_ComparisonSection.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "ComponentsSection",
+    "category": "layout",
+    "file": "012_ComponentsSection.tsx",
+    "lines": 166,
+    "path": "layout/012_ComponentsSection.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "DeveloperGuideSection",
+    "category": "layout",
+    "file": "013_DeveloperGuideSection.tsx",
+    "lines": 197,
+    "path": "layout/013_DeveloperGuideSection.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "FoundationsSection",
+    "category": "layout",
+    "file": "014_FoundationsSection.tsx",
+    "lines": 219,
+    "path": "layout/014_FoundationsSection.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "HomeSection",
+    "category": "layout",
+    "file": "015_HomeSection.tsx",
+    "lines": 154,
+    "path": "layout/015_HomeSection.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "LibrariesSection",
+    "category": "layout",
+    "file": "016_LibrariesSection.tsx",
+    "lines": 139,
+    "path": "layout/016_LibrariesSection.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "PatternsSection",
+    "category": "layout",
+    "file": "017_PatternsSection.tsx",
+    "lines": 86,
+    "path": "layout/017_PatternsSection.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "PrinciplesSection",
+    "category": "layout",
+    "file": "018_PrinciplesSection.tsx",
+    "lines": 83,
+    "path": "layout/018_PrinciplesSection.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "ResourcesSection",
+    "category": "layout",
+    "file": "019_ResourcesSection.tsx",
+    "lines": 118,
+    "path": "layout/019_ResourcesSection.tsx"
+  },
+  {
+    "source": "Code-Realm",
+    "name": "ResponsiveShowcase",
+    "category": "layout",
+    "file": "019_ResponsiveShowcase.tsx",
+    "lines": 541,
+    "path": "layout/019_ResponsiveShowcase.tsx"
+  },
+  {
+    "source": "Portfolio-Conversion",
+    "name": "Home",
+    "category": "layout",
+    "file": "019_portfolio_Home.tsx",
+    "lines": 57,
+    "path": "layout/019_portfolio_Home.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "SystemsSection",
+    "category": "layout",
+    "file": "020_SystemsSection.tsx",
+    "lines": 159,
+    "path": "layout/020_SystemsSection.tsx"
+  },
+  {
+    "source": "Portfolio-Conversion",
+    "name": "Footer",
+    "category": "layout",
+    "file": "020_portfolio_Footer.tsx",
+    "lines": 19,
+    "path": "layout/020_portfolio_Footer.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "TechnologiesSection",
+    "category": "layout",
+    "file": "021_TechnologiesSection.tsx",
+    "lines": 103,
+    "path": "layout/021_TechnologiesSection.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "IndustrialHome",
+    "category": "layout",
+    "file": "025_IndustrialHome.tsx",
+    "lines": 977,
+    "path": "layout/025_IndustrialHome.tsx"
+  },
+  {
+    "source": "UI_MATRIX",
+    "name": "Home",
+    "category": "layout",
+    "file": "025_uimatrix_Home.tsx",
+    "lines": 221,
+    "path": "layout/025_uimatrix_Home.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "Home",
+    "category": "layout",
+    "file": "027_dsref_Home.tsx",
+    "lines": 52,
+    "path": "layout/027_dsref_Home.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "UIRadarPage",
+    "category": "layout",
+    "file": "028_UIRadarPage.tsx",
+    "lines": 978,
+    "path": "layout/028_UIRadarPage.tsx"
+  },
+  {
+    "source": "dev.studio_2_portfolio",
+    "name": "Sidebar",
+    "category": "layout",
+    "file": "028_devstudio_Sidebar.tsx",
+    "lines": 57,
+    "path": "layout/028_devstudio_Sidebar.tsx"
+  },
+  {
+    "source": "dev.studio_2_portfolio",
+    "name": "Home",
+    "category": "layout",
+    "file": "032_devstudio_Home.tsx",
+    "lines": 52,
+    "path": "layout/032_devstudio_Home.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "SearchableFilterableGrid",
+    "category": "layout",
+    "file": "035_SearchableFilterableGrid.tsx",
+    "lines": 119,
+    "path": "layout/035_SearchableFilterableGrid.tsx"
+  },
+  {
+    "source": "Radix-Template",
+    "name": "ScrollNavbar",
+    "category": "navigation",
+    "file": "001_ScrollNavbar.tsx",
+    "lines": 157,
+    "path": "navigation/001_ScrollNavbar.tsx"
+  },
+  {
+    "source": "LLM-MEM-GUIDE",
+    "name": "CommandPalette",
+    "category": "navigation",
+    "file": "001_llmmem_CommandPalette.tsx",
+    "lines": 182,
+    "path": "navigation/001_llmmem_CommandPalette.tsx"
+  },
+  {
+    "source": "Portfolio-Conversion",
+    "name": "BackToTop",
+    "category": "navigation",
+    "file": "002_BackToTop.tsx",
+    "lines": 57,
+    "path": "navigation/002_BackToTop.tsx"
+  },
+  {
+    "source": "CodeMan",
+    "name": "CommandPalette",
+    "category": "navigation",
+    "file": "002_codeman_CommandPalette.tsx",
+    "lines": 252,
+    "path": "navigation/002_codeman_CommandPalette.tsx"
+  },
+  {
+    "source": "Industrial-Style-Guide",
+    "name": "UnderlineTabs",
+    "category": "navigation",
+    "file": "003_UnderlineTabs.tsx",
+    "lines": 68,
+    "path": "navigation/003_UnderlineTabs.tsx"
+  },
+  {
+    "source": "dev.studio_2_portfolio",
+    "name": "CardsTab",
+    "category": "navigation",
+    "file": "004_CardsTab.tsx",
+    "lines": 38,
+    "path": "navigation/004_CardsTab.tsx"
+  },
+  {
+    "source": "dev.studio_2_portfolio",
+    "name": "GalleryTab",
+    "category": "navigation",
+    "file": "005_GalleryTab.tsx",
+    "lines": 102,
+    "path": "navigation/005_GalleryTab.tsx"
+  },
+  {
+    "source": "Orchestration_AI_Agents",
+    "name": "GradientTabBar",
+    "category": "navigation",
+    "file": "005_GradientTabBar.tsx",
+    "lines": 64,
+    "path": "navigation/005_GradientTabBar.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "SearchModal",
+    "category": "navigation",
+    "file": "005_SearchModal.tsx",
+    "lines": 127,
+    "path": "navigation/005_SearchModal.tsx"
+  },
+  {
+    "source": "UI-Stack-Guide",
+    "name": "TabButton",
+    "category": "navigation",
+    "file": "005_TabButton.tsx",
+    "lines": 54,
+    "path": "navigation/005_TabButton.tsx"
+  },
+  {
+    "source": "dev.studio_2_portfolio",
+    "name": "GradientsTab",
+    "category": "navigation",
+    "file": "006_GradientsTab.tsx",
+    "lines": 37,
+    "path": "navigation/006_GradientsTab.tsx"
+  },
+  {
+    "source": "dev.studio_2_portfolio",
+    "name": "HeroTab",
+    "category": "navigation",
+    "file": "007_HeroTab.tsx",
+    "lines": 95,
+    "path": "navigation/007_HeroTab.tsx"
+  },
+  {
+    "source": "dev.studio_2_portfolio",
+    "name": "InteractiveTab",
+    "category": "navigation",
+    "file": "009_InteractiveTab.tsx",
+    "lines": 35,
+    "path": "navigation/009_InteractiveTab.tsx"
+  },
+  {
+    "source": "dev.studio_2_portfolio",
+    "name": "SectionsTab",
+    "category": "navigation",
+    "file": "010_SectionsTab.tsx",
+    "lines": 38,
+    "path": "navigation/010_SectionsTab.tsx"
+  },
+  {
+    "source": "Portfolio-Conversion",
+    "name": "PresentationMode",
+    "category": "navigation",
+    "file": "011_PresentationMode.tsx",
+    "lines": 244,
+    "path": "navigation/011_PresentationMode.tsx"
+  },
+  {
+    "source": "Wiki-Codex-v2",
+    "name": "ViewModeToggle",
+    "category": "navigation",
+    "file": "011_ViewModeToggle.tsx",
+    "lines": 66,
+    "path": "navigation/011_ViewModeToggle.tsx"
+  },
+  {
+    "source": "Industrial-Style-Guide",
+    "name": "ImageLightbox",
+    "category": "panels",
+    "file": "001_ImageLightbox.tsx",
+    "lines": 95,
+    "path": "panels/001_ImageLightbox.tsx"
+  },
+  {
+    "source": "css-grids",
+    "name": "AdvisorPanel",
+    "category": "panels",
+    "file": "002_AdvisorPanel.tsx",
+    "lines": 234,
+    "path": "panels/002_AdvisorPanel.tsx"
+  },
+  {
+    "source": "Flow-Studio-Pro",
+    "name": "ExecutionPanel",
+    "category": "panels",
+    "file": "002_ExecutionPanel.tsx",
+    "lines": 266,
+    "path": "panels/002_ExecutionPanel.tsx"
+  },
+  {
+    "source": "Orchestration_AI_Agents",
+    "name": "EventLogPanel",
+    "category": "panels",
+    "file": "003_EventLogPanel.tsx",
+    "lines": 133,
+    "path": "panels/003_EventLogPanel.tsx"
+  },
+  {
+    "source": "Flow-Studio-Pro",
+    "name": "NodeConfigPanel",
+    "category": "panels",
+    "file": "006_NodeConfigPanel.tsx",
+    "lines": 749,
+    "path": "panels/006_NodeConfigPanel.tsx"
+  },
+  {
+    "source": "Code-Snippets-Gallery",
+    "name": "CodeViewerDialog",
+    "category": "panels",
+    "file": "007_CodeViewerDialog.tsx",
+    "lines": 246,
+    "path": "panels/007_CodeViewerDialog.tsx"
+  },
+  {
+    "source": "Wiki-Codex-v2",
+    "name": "ConfirmDeleteDialog",
+    "category": "panels",
+    "file": "012_ConfirmDeleteDialog.tsx",
+    "lines": 81,
+    "path": "panels/012_ConfirmDeleteDialog.tsx"
+  },
+  {
+    "source": "Portfolio-Conversion",
+    "name": "ProjectDetailsModal",
+    "category": "panels",
+    "file": "012_ProjectDetailsModal.tsx",
+    "lines": 232,
+    "path": "panels/012_ProjectDetailsModal.tsx"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "HelpModal",
+    "category": "panels",
+    "file": "HelpModal.tsx",
+    "lines": 113,
+    "path": "panels/HelpModal.tsx"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "MultiTimeframeComparison",
+    "category": "panels",
+    "file": "MultiTimeframeComparison.tsx",
+    "lines": 158,
+    "path": "panels/MultiTimeframeComparison.tsx"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "NotificationCenter",
+    "category": "panels",
+    "file": "NotificationCenter.tsx",
+    "lines": 228,
+    "path": "panels/NotificationCenter.tsx"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "PlaybackBar",
+    "category": "panels",
+    "file": "PlaybackBar.tsx",
+    "lines": 172,
+    "path": "panels/PlaybackBar.tsx"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "PriceAlerts",
+    "category": "panels",
+    "file": "PriceAlerts.tsx",
+    "lines": 258,
+    "path": "panels/PriceAlerts.tsx"
+  },
+  {
+    "source": "Code-Snippets-Gallery",
+    "name": "SandboxedPreview",
+    "category": "preview",
+    "file": "001_SandboxedPreview.tsx",
+    "lines": 71,
+    "path": "preview/001_SandboxedPreview.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "ComponentPreview",
+    "category": "preview",
+    "file": "002_ComponentPreview.tsx",
+    "lines": 648,
+    "path": "preview/002_ComponentPreview.tsx"
+  },
+  {
+    "source": "Web_Aesthetic_Showcase",
+    "name": "SyntaxHighlight",
+    "category": "preview",
+    "file": "002_SyntaxHighlight.tsx",
+    "lines": 718,
+    "path": "preview/002_SyntaxHighlight.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "LivePreview",
+    "category": "preview",
+    "file": "004_LivePreview.tsx",
+    "lines": 343,
+    "path": "preview/004_LivePreview.tsx"
+  },
+  {
+    "source": "Flow-Studio-Pro",
+    "name": "MVPFlowEditor",
+    "category": "preview",
+    "file": "008_MVPFlowEditor.tsx",
+    "lines": 22,
+    "path": "preview/008_MVPFlowEditor.tsx"
+  },
+  {
+    "source": "color",
+    "name": "ThemeProvider",
+    "category": "theme",
+    "file": "002_color_ThemeProvider.tsx",
+    "lines": 400,
+    "path": "theme/002_color_ThemeProvider.tsx"
+  },
+  {
+    "source": "Carbon_Design_System",
+    "name": "CarbonDesignTokens",
+    "category": "theme",
+    "file": "005_CarbonDesignTokens.ts",
+    "lines": 106,
+    "path": "theme/005_CarbonDesignTokens.ts"
+  },
+  {
+    "source": "Carbon_Design_System",
+    "name": "CarbonCSSTheme",
+    "category": "theme",
+    "file": "006_CarbonCSSTheme.ts",
+    "lines": 225,
+    "path": "theme/006_CarbonCSSTheme.ts"
+  },
+  {
+    "source": "Web_Aesthetic_Showcase",
+    "name": "TypeScale",
+    "category": "theme",
+    "file": "009_TypeScale.ts",
+    "lines": 154,
+    "path": "theme/009_TypeScale.ts"
+  },
+  {
+    "source": "Code-Snippets-Gallery",
+    "name": "OKLCHTheme",
+    "category": "theme",
+    "file": "010_OKLCHTheme.css",
+    "lines": 178,
+    "path": "theme/010_OKLCHTheme.css"
+  },
+  {
+    "source": "Web_Aesthetic_Showcase",
+    "name": "StyleSwitcher",
+    "category": "theme",
+    "file": "011_StyleSwitcher.tsx",
+    "lines": 368,
+    "path": "theme/011_StyleSwitcher.tsx"
+  },
+  {
+    "source": "Wiki-Codex-v2",
+    "name": "ProseDarkMode",
+    "category": "theme",
+    "file": "014_ProseDarkMode.css",
+    "lines": 103,
+    "path": "theme/014_ProseDarkMode.css"
+  },
+  {
+    "source": "Portfolio-Conversion",
+    "name": "ThemeToggle",
+    "category": "theme",
+    "file": "021_portfolio_ThemeToggle.tsx",
+    "lines": 103,
+    "path": "theme/021_portfolio_ThemeToggle.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "IndustrialThemeToggle",
+    "category": "theme",
+    "file": "026_IndustrialThemeToggle.tsx",
+    "lines": 41,
+    "path": "theme/026_IndustrialThemeToggle.tsx"
+  },
+  {
+    "source": "UI_MATRIX",
+    "name": "ThemeProvider",
+    "category": "theme",
+    "file": "027_uimatrix_ThemeProvider.tsx",
+    "lines": 16,
+    "path": "theme/027_uimatrix_ThemeProvider.tsx"
+  },
+  {
+    "source": "UI_MATRIX",
+    "name": "ThemeToggle",
+    "category": "theme",
+    "file": "028_uimatrix_ThemeToggle.tsx",
+    "lines": 45,
+    "path": "theme/028_uimatrix_ThemeToggle.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "ThemeToggle",
+    "category": "theme",
+    "file": "033_dsref_ThemeToggle.tsx",
+    "lines": 40,
+    "path": "theme/033_dsref_ThemeToggle.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "ThemeProvider",
+    "category": "theme",
+    "file": "034_dsref_ThemeProvider.tsx",
+    "lines": 16,
+    "path": "theme/034_dsref_ThemeProvider.tsx"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "ChromeDNATheme",
+    "category": "theme",
+    "file": "ChromeDNATheme.css",
+    "lines": 1398,
+    "path": "theme/ChromeDNATheme.css"
+  },
+  {
+    "source": "UI-Stack-Guide",
+    "name": "HeatmapChart",
+    "category": "visualization",
+    "file": "001_HeatmapChart.tsx",
+    "lines": 124,
+    "path": "visualization/001_HeatmapChart.tsx"
+  },
+  {
+    "source": "Portfolio-Conversion",
+    "name": "SkillsRadar",
+    "category": "visualization",
+    "file": "001_portfolio_SkillsRadar.tsx",
+    "lines": 123,
+    "path": "visualization/001_portfolio_SkillsRadar.tsx"
+  },
+  {
+    "source": "UI-Stack-Guide",
+    "name": "RadarComparison",
+    "category": "visualization",
+    "file": "003_RadarComparison.tsx",
+    "lines": 217,
+    "path": "visualization/003_RadarComparison.tsx"
+  },
+  {
+    "source": "Portfolio-Conversion",
+    "name": "GitHubActivityGraph",
+    "category": "visualization",
+    "file": "006_GitHubActivityGraph.tsx",
+    "lines": 175,
+    "path": "visualization/006_GitHubActivityGraph.tsx"
+  },
+  {
+    "source": "LLM-Memory-Guide",
+    "name": "TokenFlowVisualizer",
+    "category": "visualization",
+    "file": "007_TokenFlowVisualizer.tsx",
+    "lines": 1164,
+    "path": "visualization/007_TokenFlowVisualizer.tsx"
+  },
+  {
+    "source": "UI_MATRIX",
+    "name": "ToolsGraph",
+    "category": "visualization",
+    "file": "007_ToolsGraph.tsx",
+    "lines": 292,
+    "path": "visualization/007_ToolsGraph.tsx"
+  },
+  {
+    "source": "Performance-Lab",
+    "name": "MiniBarChart",
+    "category": "visualization",
+    "file": "008_MiniBarChart.tsx",
+    "lines": 140,
+    "path": "visualization/008_MiniBarChart.tsx"
+  },
+  {
+    "source": "LLM-Memory-Guide",
+    "name": "BenchmarksChart",
+    "category": "visualization",
+    "file": "011_BenchmarksChart.tsx",
+    "lines": 1514,
+    "path": "visualization/011_BenchmarksChart.tsx"
+  },
+  {
+    "source": "UI_MATRIX",
+    "name": "RadarChart",
+    "category": "visualization",
+    "file": "026_RadarChart.tsx",
+    "lines": 276,
+    "path": "visualization/026_RadarChart.tsx"
+  },
+  {
+    "source": "DS_Reference",
+    "name": "RadarButton",
+    "category": "visualization",
+    "file": "027_RadarButton.tsx",
+    "lines": 626,
+    "path": "visualization/027_RadarButton.tsx"
+  },
+  {
+    "source": "dev.studio_2_portfolio",
+    "name": "SkillsRadar",
+    "category": "visualization",
+    "file": "029_devstudio_SkillsRadar.tsx",
+    "lines": 118,
+    "path": "visualization/029_devstudio_SkillsRadar.tsx"
+  },
+  {
+    "source": "P-MAS",
+    "name": "ConnectionHeatmap",
+    "category": "visualization",
+    "file": "ConnectionHeatmap.tsx",
+    "lines": 112,
+    "path": "visualization/ConnectionHeatmap.tsx"
+  },
+  {
+    "source": "P-MAS",
+    "name": "DirectedGraphDiagram",
+    "category": "visualization",
+    "file": "DirectedGraphDiagram.tsx",
+    "lines": 89,
+    "path": "visualization/DirectedGraphDiagram.tsx"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "EquitySparkline",
+    "category": "visualization",
+    "file": "EquitySparkline.tsx",
+    "lines": 86,
+    "path": "visualization/EquitySparkline.tsx"
+  },
+  {
+    "source": "P-MAS",
+    "name": "MappingGrid",
+    "category": "visualization",
+    "file": "MappingGrid.tsx",
+    "lines": 81,
+    "path": "visualization/MappingGrid.tsx"
+  },
+  {
+    "source": "P-MAS",
+    "name": "MiniSparkline",
+    "category": "visualization",
+    "file": "MiniSparkline.tsx",
+    "lines": 67,
+    "path": "visualization/MiniSparkline.tsx"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "PerformanceHeatmap",
+    "category": "visualization",
+    "file": "PerformanceHeatmap.tsx",
+    "lines": 318,
+    "path": "visualization/PerformanceHeatmap.tsx"
+  },
+  {
+    "source": "CHROMEDNA",
+    "name": "SentimentGauge",
+    "category": "visualization",
+    "file": "SentimentGauge.tsx",
+    "lines": 378,
+    "path": "visualization/SentimentGauge.tsx"
+  }
+]
