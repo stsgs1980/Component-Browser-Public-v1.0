@@ -829,49 +829,19 @@ function PreviewTab({
       </div>
 
       <div className="flex-1 p-6">
-        {isComplex ? (
-          /* Placeholder for complex components */
-          <div className="max-w-lg mx-auto">
-            <div className="bg-[#1a1a24] border border-[#2a2a3a] rounded-xl p-6 text-center">
-              <div className="w-12 h-12 rounded-xl mx-auto mb-4 flex items-center justify-center" style={{ backgroundColor: categoryColor + '15' }}>
-                <Package className="h-6 w-6" style={{ color: categoryColor }} />
-              </div>
-              <h3 className="text-[#f1f5f9] font-semibold mb-1">Complex Dependencies</h3>
-              <p className="text-[#6b7280] text-[13px] mb-4">
-                This component requires additional packages for live preview
-              </p>
-              <div className="flex flex-wrap gap-2 justify-center mb-5">
-                {component.externalDeps.map((dep) => {
-                  const base = getBasePackageName(dep);
-                  const installed = isPackageInstalled(base);
-                  return (
-                    <span key={dep} className={`inline-flex items-center gap-1.5 text-[11px] px-2.5 py-1 rounded-lg border ${
-                      installed ? 'bg-[#10b981]/10 border-[#10b981]/20 text-[#10b981]' : 'bg-[#f59e0b]/10 border-[#f59e0b]/20 text-[#f59e0b]'
-                    }`}>
-                      {installed ? <CheckCircle2 size={10} /> : <AlertTriangle size={10} />}
-                      {base}
-                    </span>
-                  );
-                })}
-              </div>
-
-              {!isPackageInstalled(getBasePackageName(component.externalDeps[0] || '')) && component.externalDeps.length > 0 && (
-                <div className="bg-[#0a0a0f] rounded-lg p-3 border border-[#2a2a3a] text-left">
-                  <div className="text-[11px] text-[#6b7280] mb-1">Install dependencies:</div>
-                  <code className="text-[12px] text-[#10b981] font-mono">
-                    bun add {component.externalDeps.map(getBasePackageName).filter((v, i, a) => a.indexOf(v) === i).join(' ')}
-                  </code>
-                </div>
-              )}
-            </div>
-          </div>
-        ) : (
-          /* Live preview via iframe */
           <div className="max-w-2xl mx-auto">
+            {component.externalDeps.length > 0 && (
+              <div className="flex items-center gap-2 mb-3 px-3 py-2 rounded-lg bg-[#1a1a24] border border-[#2a2a3a]">
+                <Info className="h-3.5 w-3.5 text-[#6b7280] shrink-0" />
+                <span className="text-[11px] text-[#6b7280]">
+                  Stubbed deps: {component.externalDeps.map(getBasePackageName).filter((v, i, a) => a.indexOf(v) === i).join(', ')}
+                </span>
+              </div>
+            )}
             {component.hasBrokenImports && (
               <div className="flex items-center gap-2 mb-3 px-3 py-2 rounded-lg bg-[#f59e0b]/10 border border-[#f59e0b]/20">
                 <AlertTriangle size={14} className="text-[#f59e0b] shrink-0" />
-                <span className="text-[12px] text-[#f59e0b]">This component has unresolved imports. Preview may not work correctly.</span>
+                <span className="text-[12px] text-[#f59e0b]">Broken imports removed. Preview may be incomplete.</span>
               </div>
             )}
             <div className="bg-white rounded-xl overflow-hidden shadow-2xl border border-[#e5e7eb]">
@@ -893,7 +863,6 @@ function PreviewTab({
               />
             </div>
           </div>
-        )}
 
         {/* CLI Install Hint */}
         <div className="max-w-2xl mx-auto mt-6">
