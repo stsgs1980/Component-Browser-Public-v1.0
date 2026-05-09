@@ -1629,5 +1629,96 @@
     "category": "i18n",
     "path": "Code-Snippets-Gallery",
     "lines": 95
+  },
+  {
+    "project": "UI-Stack-Guide",
+    "name": "HeatmapChart",
+    "category": "visualization",
+    "path": "UI-Stack-Guide",
+    "lines": 120
+  },
+  {
+    "project": "UI-Stack-Guide",
+    "name": "RatingComparisonCard",
+    "category": "card",
+    "path": "UI-Stack-Guide",
+    "lines": 95
+  },
+  {
+    "project": "UI-Stack-Guide",
+    "name": "RadarComparison",
+    "category": "visualization",
+    "path": "UI-Stack-Guide",
+    "lines": 195
+  },
+  {
+    "project": "UI-Stack-Guide",
+    "name": "EntityCard",
+    "category": "card",
+    "path": "UI-Stack-Guide",
+    "lines": 130
+  },
+  {
+    "project": "UI-Stack-Guide",
+    "name": "TabButton",
+    "category": "ui",
+    "path": "UI-Stack-Guide",
+    "lines": 75
+  },
+  {
+    "project": "UI-Stack-Guide",
+    "name": "FourColumnBrowser",
+    "category": "ui",
+    "path": "UI-Stack-Guide",
+    "lines": 260
+  },
+  {
+    "project": "UI-Stack-Guide",
+    "name": "StackCard",
+    "category": "card",
+    "path": "UI-Stack-Guide",
+    "lines": 90
+  },
+  {
+    "project": "Radix-Template",
+    "name": "ScrollNavbar",
+    "category": "layout",
+    "path": "Radix-Template",
+    "lines": 130
+  },
+  {
+    "project": "Radix-Template",
+    "name": "CodeWindow",
+    "category": "ui",
+    "path": "Radix-Template",
+    "lines": 45
+  },
+  {
+    "project": "Radix-Template",
+    "name": "SectionHeader",
+    "category": "ui",
+    "path": "Radix-Template",
+    "lines": 75
+  },
+  {
+    "project": "Radix-Template",
+    "name": "AmbientBackground",
+    "category": "effect",
+    "path": "Radix-Template",
+    "lines": 85
+  },
+  {
+    "project": "Radix-Template",
+    "name": "FeatureCard",
+    "category": "card",
+    "path": "Radix-Template",
+    "lines": 75
+  },
+  {
+    "project": "Radix-Template",
+    "name": "CTABanner",
+    "category": "sections",
+    "path": "Radix-Template",
+    "lines": 80
   }
 ]
