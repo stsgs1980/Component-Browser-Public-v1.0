@@ -1,22 +1,147 @@
-
 "use client";
 
-import {
-  getContrastColor,
-  DARK_BG,
-} from "@/lib/colorUtils";
+import React from "react";
 
-interface ColorSchemePreviewProps {
-  colors: string[];
-  secondaryColor: string;
-  mode: "light" | "dark";
+// ---------------------------------------------------------------------------
+// Inline color utilities (from colorUtils.ts)
+// ---------------------------------------------------------------------------
+
+interface RGB {
+  r: number;
+  g: number;
+  b: number;
 }
 
+/** Convert a hex color string to an {r, g, b} object. */
+function hexToRgb(hex: string): RGB {
+  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return result
+    ? {
+        r: parseInt(result[1], 16),
+        g: parseInt(result[2], 16),
+        b: parseInt(result[3], 16),
+      }
+    : { r: 0, g: 0, b: 0 };
+}
+
+/** Calculate WCAG relative luminance for an RGB color. */
+function getRelativeLuminance(rgb: RGB): number {
+  const rsRGB = rgb.r / 255;
+  const gsRGB = rgb.g / 255;
+  const bsRGB = rgb.b / 255;
+
+  const r =
+    rsRGB <= 0.03928
+      ? rsRGB / 12.92
+      : Math.pow((rsRGB + 0.055) / 1.055, 2.4);
+  const g =
+    gsRGB <= 0.03928
+      ? gsRGB / 12.92
+      : Math.pow((gsRGB + 0.055) / 1.055, 2.4);
+  const b =
+    bsRGB <= 0.03928
+      ? bsRGB / 12.92
+      : Math.pow((bsRGB + 0.055) / 1.055, 2.4);
+
+  return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+}
+
+/**
+ * Return `#ffffff` or `#000000` whichever provides better contrast
+ * against the given background `hexColor`.
+ */
+function getContrastColor(hexColor: string): string {
+  const rgb = hexToRgb(hexColor);
+  const luminance = getRelativeLuminance(rgb);
+  const contrastWithWhite = 1.05 / (luminance + 0.05);
+  const contrastWithBlack = (luminance + 0.05) / 0.05;
+  return contrastWithWhite > contrastWithBlack ? "#ffffff" : "#000000";
+}
+
+/** Deep dark gray constant used for dark-theme backgrounds. */
+const DARK_BG = "#1a1a1a";
+
+// ---------------------------------------------------------------------------
+// Types
+// ---------------------------------------------------------------------------
+
+/** Labels that appear inside the preview mock-up. All default to English. */
+export interface ColorSchemePreviewLabels {
+  /** Label for the email input field. @default "Email Address" */
+  emailLabel?: string;
+  /** Label for the select / dropdown field. @default "Select an option" */
+  selectLabel?: string;
+  /** First option in the dropdown. @default "Option 1" */
+  option1?: string;
+  /** Second option in the dropdown. @default "Option 2" */
+  option2?: string;
+  /** Checkbox label. @default "I agree to the terms" */
+  agreeLabel?: string;
+  /** Primary CTA button text. @default "Learn More" */
+  ctaButton?: string;
+  /** Secondary / outline button text. @default "Cancel" */
+  cancelButton?: string;
+  /** Category tag shown on cards. @default "Category" */
+  categoryLabel?: string;
+  /** "Read more" link text. @default "Read More \u2192" */
+  readMore?: string;
+}
+
+export interface ColorSchemePreviewProps {
+  /** Array of 5 hex color strings (palette variants). */
+  colors: string[];
+  /** Secondary / accent hex color. */
+  secondaryColor: string;
+  /** Current colour scheme mode. */
+  mode: "light" | "dark";
+  /** Optional override for every user-visible label in the preview. */
+  labels?: ColorSchemePreviewLabels;
+}
+
+// ---------------------------------------------------------------------------
+// Defaults
+// ---------------------------------------------------------------------------
+
+const DEFAULT_LABELS: Required<ColorSchemePreviewLabels> = {
+  emailLabel: "Email Address",
+  selectLabel: "Select an option",
+  option1: "Option 1",
+  option2: "Option 2",
+  agreeLabel: "I agree to the terms",
+  ctaButton: "Learn More",
+  cancelButton: "Cancel",
+  categoryLabel: "Category",
+  readMore: "Read More \u2192",
+};
+
+// ---------------------------------------------------------------------------
+// Component
+// ---------------------------------------------------------------------------
+
+/**
+ * A miniature UI mock-up that previews a colour scheme using the 60-30-10
+ * rule: 60 % neutral background, 30 % primary colour, 10 % accent.
+ *
+ * Fully self-contained — no external colour-utility or icon imports required.
+ *
+ * @example
+ * ```tsx
+ * <ColorSchemePreview
+ *   colors={["#e74c3c", "#c0392b", "#a93226", "#922b21", "#7b241c"]}
+ *   secondaryColor="#2980b9"
+ *   mode="dark"
+ *   labels={{ ctaButton: "Try it now" }}
+ * />
+ * ```
+ */
 export function ColorSchemePreview({
   colors,
   secondaryColor,
   mode,
+  labels,
 }: ColorSchemePreviewProps) {
+  const t: Required<ColorSchemePreviewLabels> = { ...DEFAULT_LABELS, ...labels };
+
   const [baseColor, variant1, variant2, variant3, variant4] = colors;
 
   // 60-30-10 Rule Implementation
@@ -37,7 +162,7 @@ export function ColorSchemePreview({
         borderColor: mode === "light" ? "#e0e0e0" : "#404040",
       }}
     >
-      {/* Header - 30% Primary */}
+      {/* Header — 30% Primary */}
       <div
         className="p-4 flex items-center justify-between"
         style={{ backgroundColor: primaryColor }}
@@ -54,7 +179,7 @@ export function ColorSchemePreview({
         </div>
       </div>
 
-      {/* Color bar - showing palette */}
+      {/* Color bar — showing full palette */}
       <div className="flex h-2">
         {colors.map((color, index) => (
           <div
@@ -65,7 +190,7 @@ export function ColorSchemePreview({
         ))}
       </div>
 
-      {/* Content area - 60% Neutral background */}
+      {/* Content area — 60% Neutral background */}
       <div className="p-5" style={{ backgroundColor: neutralBg }}>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {/* Left column */}
@@ -85,8 +210,11 @@ export function ColorSchemePreview({
             <div className="space-y-3 mb-4">
               {/* Input field */}
               <div>
-                <label className="text-xs font-medium mb-1 block" style={{ color: neutralText }}>
-                  Email адрес
+                <label
+                  className="text-xs font-medium mb-1 block"
+                  style={{ color: neutralText }}
+                >
+                  {t.emailLabel}
                 </label>
                 <input
                   type="email"
@@ -99,11 +227,14 @@ export function ColorSchemePreview({
                   }}
                 />
               </div>
-              
+
               {/* Select field */}
               <div>
-                <label className="text-xs font-medium mb-1 block" style={{ color: neutralText }}>
-                  Выберите опцию
+                <label
+                  className="text-xs font-medium mb-1 block"
+                  style={{ color: neutralText }}
+                >
+                  {t.selectLabel}
                 </label>
                 <select
                   className="w-full px-3 py-2 text-sm rounded-lg border transition-all"
@@ -113,11 +244,11 @@ export function ColorSchemePreview({
                     color: neutralText,
                   }}
                 >
-                  <option>Опция 1</option>
-                  <option>Опция 2</option>
+                  <option>{t.option1}</option>
+                  <option>{t.option2}</option>
                 </select>
               </div>
-              
+
               {/* Checkbox */}
               <label className="flex items-center gap-2 cursor-pointer">
                 <input
@@ -125,11 +256,11 @@ export function ColorSchemePreview({
                   className="w-4 h-4 rounded"
                   style={{ accentColor: primaryColor }}
                 />
-                <span className="text-sm">Согласен с условиями</span>
+                <span className="text-sm">{t.agreeLabel}</span>
               </label>
             </div>
 
-            {/* CTA Button - 10% Secondary */}
+            {/* CTA Button — 10% Secondary */}
             <button
               className="px-4 py-2 rounded-lg text-sm font-medium mb-4 transition-all hover:scale-[1.02] active:scale-[0.98] shadow-md"
               style={{
@@ -137,7 +268,7 @@ export function ColorSchemePreview({
                 color: getContrastColor(accentColor),
               }}
             >
-              Узнать больше
+              {t.ctaButton}
             </button>
 
             {/* Secondary button */}
@@ -149,7 +280,7 @@ export function ColorSchemePreview({
                 border: `1.5px solid ${primaryColor}`,
               }}
             >
-              Отмена
+              {t.cancelButton}
             </button>
 
             {/* Card with elevation */}
@@ -165,6 +296,7 @@ export function ColorSchemePreview({
                   className="w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0"
                   style={{ backgroundColor: primaryColor }}
                 >
+                  {/* Clock icon (inline SVG — replaces any lucide-react dependency) */}
                   <svg
                     className="w-5 h-5"
                     fill="none"
@@ -182,16 +314,19 @@ export function ColorSchemePreview({
                   >
                     Duis aute irure dolor
                   </div>
-                  <div className="text-xs space-y-0.5" style={{ color: neutralMuted }}>
-                    <div>• Lorem ipsum</div>
-                    <div>• Dolor sit amet</div>
+                  <div
+                    className="text-xs space-y-0.5"
+                    style={{ color: neutralMuted }}
+                  >
+                    <div>&bull; Lorem ipsum</div>
+                    <div>&bull; Dolor sit amet</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Right column - Cards */}
+          {/* Right column — Cards */}
           <div className="space-y-3">
             {[1, 2, 3].map((item) => (
               <div
@@ -201,7 +336,7 @@ export function ColorSchemePreview({
               >
                 <div className="flex gap-3">
                   <div className="text-xl" style={{ color: primaryColor }}>
-                    ■
+                    &block;
                   </div>
                   <div className="flex-1">
                     <div
@@ -210,17 +345,23 @@ export function ColorSchemePreview({
                     >
                       Lorem ipsum dolor
                     </div>
-                    <div className="text-xs mb-1.5" style={{ color: accentColor }}>
-                      Duis aute • Категория
+                    <div
+                      className="text-xs mb-1.5"
+                      style={{ color: accentColor }}
+                    >
+                      Duis aute &bull; {t.categoryLabel}
                     </div>
-                    <div className="text-xs leading-relaxed" style={{ color: neutralMuted }}>
+                    <div
+                      className="text-xs leading-relaxed"
+                      style={{ color: neutralMuted }}
+                    >
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </div>
                     <button
                       className="text-xs mt-2 hover:underline font-medium transition-all"
                       style={{ color: accentColor }}
                     >
-                      Подробнее →
+                      {t.readMore}
                     </button>
                     {item === 2 && (
                       <div
@@ -231,7 +372,7 @@ export function ColorSchemePreview({
                           color: accentColor,
                         }}
                       >
-                        ⚡ Adipiscing elit sed do eiusmod tempor.
+                        &zwnj;26A1 Adipiscing elit sed do eiusmod tempor.
                       </div>
                     )}
                   </div>
@@ -242,7 +383,7 @@ export function ColorSchemePreview({
         </div>
       </div>
 
-      {/* Footer */}
+      {/* Footer accent line */}
       <div className="h-1.5" style={{ backgroundColor: primaryColor }} />
     </div>
   );
