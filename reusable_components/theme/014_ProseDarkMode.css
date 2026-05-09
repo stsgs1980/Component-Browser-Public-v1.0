@@ -1,0 +1,103 @@
+/**
+ * ProseDarkMode.css — Tailwind prose overrides for Markdown rendering.
+ * Handles code blocks (pre/code), inline code, blockquotes, tables, and word wrapping
+ * in both light and dark modes. Works with @tailwindcss/typography.
+ *
+ * Source: Wiki-Codex-v2 /src/app/globals.css (lines 146-228)
+ * De-hardcoded: none — already fully generic, framework-agnostic CSS.
+ */
+
+/* Custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: oklch(0.8 0 0);
+  border-radius: 3px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: oklch(0.65 0 0);
+}
+
+/* Prose: code blocks */
+.prose pre {
+  background-color: #f5f5f4;
+  border: 1px solid #e7e5e4;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  overflow-x: auto;
+  max-width: 100%;
+}
+.dark .prose pre {
+  background-color: #292524;
+  border-color: #44403c;
+}
+
+/* Override SyntaxHighlighter inline background */
+.prose div[class*="prism"] {
+  background-color: #fafaf9 !important;
+  border-radius: 0.5rem;
+  max-width: 100%;
+  overflow-x: auto !important;
+}
+.dark .prose div[class*="prism"] {
+  background-color: #1c1917 !important;
+}
+
+.prose pre > code {
+  background: none;
+  padding: 0;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  white-space: pre;
+  overflow-x: auto;
+}
+@media (min-width: 768px) {
+  .prose pre > code {
+    font-size: 0.8125rem;
+    line-height: 1.6;
+  }
+}
+
+.prose img {
+  border-radius: 0.5rem;
+  border: 1px solid var(--border);
+  max-width: 100%;
+}
+
+/* Ensure all text wraps properly in markdown viewer */
+.prose {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.prose p,
+.prose li,
+.prose td,
+.prose th,
+.prose blockquote,
+.prose span {
+  overflow-wrap: anywhere;
+}
+
+/* Code blocks: horizontal scroll instead of breaking words */
+.prose pre code {
+  white-space: pre !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+}
+
+/* Dark mode inline code */
+.dark .prose code:not(pre code) {
+  background-color: #292524;
+  color: #e7e5e4;
+}
+
+/* Dark mode blockquote */
+.dark .prose blockquote {
+  border-left-color: #57534e;
+  color: #a8a29e;
+}
