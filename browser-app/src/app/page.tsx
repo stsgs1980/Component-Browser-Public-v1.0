@@ -866,26 +866,31 @@ function PreviewTab({
             </div>
           </div>
         ) : (
-          /* Simple preview */
+          /* Live preview via iframe */
           <div className="max-w-2xl mx-auto">
+            {component.hasBrokenImports && (
+              <div className="flex items-center gap-2 mb-3 px-3 py-2 rounded-lg bg-[#f59e0b]/10 border border-[#f59e0b]/20">
+                <AlertTriangle size={14} className="text-[#f59e0b] shrink-0" />
+                <span className="text-[12px] text-[#f59e0b]">This component has unresolved imports. Preview may not work correctly.</span>
+              </div>
+            )}
             <div className="bg-white rounded-xl overflow-hidden shadow-2xl border border-[#e5e7eb]">
               <div className="bg-[#f8f9fa] border-b border-[#e5e7eb] px-4 py-2 flex items-center gap-1.5">
                 <span className="w-2.5 h-2.5 rounded-full bg-[#ef4444]" />
                 <span className="w-2.5 h-2.5 rounded-full bg-[#f59e0b]" />
                 <span className="w-2.5 h-2.5 rounded-full bg-[#10b981]" />
                 <span className="text-[11px] text-[#6b7280] ml-2 font-mono">{component.file}</span>
-              </div>
-              <div className="p-6 text-center">
-                <div className="w-14 h-14 rounded-xl mx-auto mb-5 flex items-center justify-center" style={{ backgroundColor: categoryColor + '15' }}>
-                  <FileCode2 className="h-7 w-7" style={{ color: categoryColor }} />
-                </div>
-                <h3 className="text-[#111827] text-xl font-bold mb-1">{component.name}</h3>
-                <p className="text-[#9ca3af] text-[13px] mb-6">{component.category.replace(/-/g, ' ')} &middot; {component.source}</p>
-                <div className="flex items-center justify-center gap-2 text-[#6b7280] text-[12px]">
-                  <Info className="h-3.5 w-3.5" />
-                  <span>Live preview available (React + Tailwind only)</span>
+                <div className="ml-auto flex items-center gap-1">
+                  <span className="text-[9px] px-1.5 py-0.5 rounded bg-[#10b981]/10 text-[#10b981] font-medium">LIVE</span>
                 </div>
               </div>
+              <iframe
+                src={`/api/preview/${component.path}`}
+                className="w-full border-0"
+                style={{ minHeight: '400px', maxHeight: '600px', height: '50vh' }}
+                sandbox="allow-scripts"
+                title={`${component.name} preview`}
+              />
             </div>
           </div>
         )}
