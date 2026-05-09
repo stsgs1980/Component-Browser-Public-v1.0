@@ -1,0 +1,1747 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reusable Components — 176 уникальных</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0a; color: #e0e0e0; }
+        .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+        h1 { color: #fff; margin-bottom: 10px; font-size: 24px; }
+        .stats { background: #1a1a1a; padding: 15px; border-radius: 8px; margin-bottom: 20px; display: flex; gap: 20px; flex-wrap: wrap; }
+        .stat { color: #888; }
+        .stat strong { color: #4ade80; }
+        .search { width: 100%; padding: 12px 15px; background: #1a1a1a; border: 1px solid #333; border-radius: 8px; color: #fff; font-size: 14px; margin-bottom: 20px; }
+        .search:focus { outline: none; border-color: #4ade80; }
+        .category { background: #1a1a1a; border-radius: 8px; margin-bottom: 15px; overflow: hidden; }
+        .category-header { padding: 15px 20px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; border-left: 4px solid #4ade80; }
+        .category-header:hover { background: #252525; }
+        .category-name { font-weight: 600; color: #fff; font-size: 16px; }
+        .category-count { background: #333; padding: 4px 12px; border-radius: 12px; font-size: 13px; color: #aaa; }
+        .components { max-height: 0; overflow: hidden; }
+        .category.open .components { max-height: 5000px; }
+        .component { border-top: 1px solid #333; padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; }
+        .component:hover { background: #252525; }
+        .component-name { color: #60a5fa; font-family: monospace; font-size: 14px; }
+        .component-project { color: #666; font-size: 11px; }
+        .component-lines { color: #4ade80; font-size: 12px; }
+        .component-copies { background: #7c3aed33; color: #a78bfa; padding: 2px 6px; border-radius: 4px; font-size: 10px; margin-left: 8px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📦 Reusable Components</h1>
+        <div class="stats">
+            <div class="stat">Типов: <strong>12</strong></div>
+            <div class="stat">Уникальных: <strong>176</strong></div>
+            <div class="stat" style="color: #f87171;">Дубликатов убрано: <strong>241</strong></div>
+        </div>
+        <input type="text" class="search" placeholder="Поиск..." id="search">
+        <div id="categories">
+
+        <div class="category">
+            <div class="category-header" onclick="this.parentElement.classList.toggle('open')">
+                <span class="category-name">UI Components</span>
+                <span class="category-count">37</span>
+            </div>
+            <div class="components">
+
+                <div class="component" data-name="iconlogo">
+                    <div>
+                        <span class="component-name">IconLogo</span>
+                        <span class="component-project">← DS_Reference</span>
+                        
+                    </div>
+                    <span class="component-lines">1323 строк</span>
+                </div>
+
+                <div class="component" data-name="button">
+                    <div>
+                        <span class="component-name">Button</span>
+                        <span class="component-project">← dev.studio_2_portfolio</span>
+                        <span class="component-copies">×6</span>
+                    </div>
+                    <span class="component-lines">690 строк</span>
+                </div>
+
+                <div class="component" data-name="input">
+                    <div>
+                        <span class="component-name">Input</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">690 строк</span>
+                </div>
+
+                <div class="component" data-name="transitionpicker">
+                    <div>
+                        <span class="component-name">TransitionPicker</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v2.0</span>
+                        
+                    </div>
+                    <span class="component-lines">274 строк</span>
+                </div>
+
+                <div class="component" data-name="toolcard">
+                    <div>
+                        <span class="component-name">ToolCard</span>
+                        <span class="component-project">← UI_MATRIX</span>
+                        
+                    </div>
+                    <span class="component-lines">219 строк</span>
+                </div>
+
+                <div class="component" data-name="selectrangecontext">
+                    <div>
+                        <span class="component-name">SelectRangeContext</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">201 строк</span>
+                </div>
+
+                <div class="component" data-name="navigation">
+                    <div>
+                        <span class="component-name">Navigation</span>
+                        <span class="component-project">← Portfolio-Conversion</span>
+                        <span class="component-copies">×2</span>
+                    </div>
+                    <span class="component-lines">177 строк</span>
+                </div>
+
+                <div class="component" data-name="selectmultiplecontext">
+                    <div>
+                        <span class="component-name">SelectMultipleContext</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">156 строк</span>
+                </div>
+
+                <div class="component" data-name="daypickercontext">
+                    <div>
+                        <span class="component-name">DayPickerContext</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">155 строк</span>
+                </div>
+
+                <div class="component" data-name="toolstackcard">
+                    <div>
+                        <span class="component-name">ToolStackCard</span>
+                        <span class="component-project">← UI_MATRIX</span>
+                        
+                    </div>
+                    <span class="component-lines">135 строк</span>
+                </div>
+
+                <div class="component" data-name="searchmodal">
+                    <div>
+                        <span class="component-name">SearchModal</span>
+                        <span class="component-project">← DS_Reference</span>
+                        
+                    </div>
+                    <span class="component-lines">127 строк</span>
+                </div>
+
+                <div class="component" data-name="daypicker">
+                    <div>
+                        <span class="component-name">DayPicker</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">119 строк</span>
+                </div>
+
+                <div class="component" data-name="gallerytab">
+                    <div>
+                        <span class="component-name">GalleryTab</span>
+                        <span class="component-project">← dev.studio_2_portfolio</span>
+                        
+                    </div>
+                    <span class="component-lines">102 строк</span>
+                </div>
+
+                <div class="component" data-name="selectsinglecontext">
+                    <div>
+                        <span class="component-name">SelectSingleContext</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">101 строк</span>
+                </div>
+
+                <div class="component" data-name="navigationcontext">
+                    <div>
+                        <span class="component-name">NavigationContext</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">100 строк</span>
+                </div>
+
+                <div class="component" data-name="caption">
+                    <div>
+                        <span class="component-name">Caption</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">82 строк</span>
+                </div>
+
+                <div class="component" data-name="yearsdropdown">
+                    <div>
+                        <span class="component-name">YearsDropdown</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">80 строк</span>
+                </div>
+
+                <div class="component" data-name="monthsdropdown">
+                    <div>
+                        <span class="component-name">MonthsDropdown</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">79 строк</span>
+                </div>
+
+                <div class="component" data-name="month">
+                    <div>
+                        <span class="component-name">Month</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">71 строк</span>
+                </div>
+
+                <div class="component" data-name="dropdown">
+                    <div>
+                        <span class="component-name">Dropdown</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">71 строк</span>
+                </div>
+
+                <div class="component" data-name="table">
+                    <div>
+                        <span class="component-name">Table</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">70 строк</span>
+                </div>
+
+                <div class="component" data-name="row">
+                    <div>
+                        <span class="component-name">Row</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">55 строк</span>
+                </div>
+
+                <div class="component" data-name="captionnavigation">
+                    <div>
+                        <span class="component-name">CaptionNavigation</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">54 строк</span>
+                </div>
+
+                <div class="component" data-name="captiondropdowns">
+                    <div>
+                        <span class="component-name">CaptionDropdowns</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">49 строк</span>
+                </div>
+
+                <div class="component" data-name="headrow">
+                    <div>
+                        <span class="component-name">HeadRow</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">45 строк</span>
+                </div>
+
+                <div class="component" data-name="goalselector">
+                    <div>
+                        <span class="component-name">GoalSelector</span>
+                        <span class="component-project">← 47-CSS-</span>
+                        
+                    </div>
+                    <span class="component-lines">42 строк</span>
+                </div>
+
+                <div class="component" data-name="toaster">
+                    <div>
+                        <span class="component-name">Toaster</span>
+                        <span class="component-project">← CSS_Grid</span>
+                        <span class="component-copies">×16</span>
+                    </div>
+                    <span class="component-lines">40 строк</span>
+                </div>
+
+                <div class="component" data-name="sectionstab">
+                    <div>
+                        <span class="component-name">SectionsTab</span>
+                        <span class="component-project">← dev.studio_2_portfolio</span>
+                        
+                    </div>
+                    <span class="component-lines">38 строк</span>
+                </div>
+
+                <div class="component" data-name="cardstab">
+                    <div>
+                        <span class="component-name">CardsTab</span>
+                        <span class="component-project">← dev.studio_2_portfolio</span>
+                        
+                    </div>
+                    <span class="component-lines">38 строк</span>
+                </div>
+
+                <div class="component" data-name="captionlabel">
+                    <div>
+                        <span class="component-name">CaptionLabel</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">37 строк</span>
+                </div>
+
+                <div class="component" data-name="day">
+                    <div>
+                        <span class="component-name">Day</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">35 строк</span>
+                </div>
+
+                <div class="component" data-name="interactivetab">
+                    <div>
+                        <span class="component-name">InteractiveTab</span>
+                        <span class="component-project">← dev.studio_2_portfolio</span>
+                        
+                    </div>
+                    <span class="component-lines">35 строк</span>
+                </div>
+
+                <div class="component" data-name="daycontent">
+                    <div>
+                        <span class="component-name">DayContent</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">27 строк</span>
+                </div>
+
+                <div class="component" data-name="icondropdown">
+                    <div>
+                        <span class="component-name">IconDropdown</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">27 строк</span>
+                </div>
+
+                <div class="component" data-name="months">
+                    <div>
+                        <span class="component-name">Months</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">24 строк</span>
+                </div>
+
+                <div class="component" data-name="iconleft">
+                    <div>
+                        <span class="component-name">IconLeft</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">21 строк</span>
+                </div>
+
+                <div class="component" data-name="iconright">
+                    <div>
+                        <span class="component-name">IconRight</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">20 строк</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <div class="category-header" onclick="this.parentElement.classList.toggle('open')">
+                <span class="category-name">Other</span>
+                <span class="category-count">31</span>
+            </div>
+            <div class="components">
+
+                <div class="component" data-name="imageshowcase">
+                    <div>
+                        <span class="component-name">ImageShowcase</span>
+                        <span class="component-project">← dev.studio_2_portfolio</span>
+                        
+                    </div>
+                    <span class="component-lines">255 строк</span>
+                </div>
+
+                <div class="component" data-name="presentationmode">
+                    <div>
+                        <span class="component-name">PresentationMode</span>
+                        <span class="component-project">← Portfolio-Conversion</span>
+                        
+                    </div>
+                    <span class="component-lines">244 строк</span>
+                </div>
+
+                <div class="component" data-name="processsection">
+                    <div>
+                        <span class="component-name">ProcessSection</span>
+                        <span class="component-project">← dev.studio_2_portfolio</span>
+                        
+                    </div>
+                    <span class="component-lines">213 строк</span>
+                </div>
+
+                <div class="component" data-name="developerguidesection">
+                    <div>
+                        <span class="component-name">DeveloperGuideSection</span>
+                        <span class="component-project">← DS_Reference</span>
+                        
+                    </div>
+                    <span class="component-lines">197 строк</span>
+                </div>
+
+                <div class="component" data-name="compatibilitymatrix">
+                    <div>
+                        <span class="component-name">CompatibilityMatrix</span>
+                        <span class="component-project">← UI_MATRIX</span>
+                        
+                    </div>
+                    <span class="component-lines">195 строк</span>
+                </div>
+
+                <div class="component" data-name="classnames">
+                    <div>
+                        <span class="component-name">ClassNames</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">185 строк</span>
+                </div>
+
+                <div class="component" data-name="howiwork">
+                    <div>
+                        <span class="component-name">HowIWork</span>
+                        <span class="component-project">← Portfolio-Conversion</span>
+                        
+                    </div>
+                    <span class="component-lines">169 строк</span>
+                </div>
+
+                <div class="component" data-name="componentssection">
+                    <div>
+                        <span class="component-name">ComponentsSection</span>
+                        <span class="component-project">← DS_Reference</span>
+                        
+                    </div>
+                    <span class="component-lines">166 строк</span>
+                </div>
+
+                <div class="component" data-name="sidebar">
+                    <div>
+                        <span class="component-name">Sidebar</span>
+                        <span class="component-project">← DS_Reference</span>
+                        <span class="component-copies">×2</span>
+                    </div>
+                    <span class="component-lines">164 строк</span>
+                </div>
+
+                <div class="component" data-name="glossary">
+                    <div>
+                        <span class="component-name">Glossary</span>
+                        <span class="component-project">← UI_MATRIX</span>
+                        
+                    </div>
+                    <span class="component-lines">160 строк</span>
+                </div>
+
+                <div class="component" data-name="systemssection">
+                    <div>
+                        <span class="component-name">SystemsSection</span>
+                        <span class="component-project">← DS_Reference</span>
+                        
+                    </div>
+                    <span class="component-lines">159 строк</span>
+                </div>
+
+                <div class="component" data-name="librariessection">
+                    <div>
+                        <span class="component-name">LibrariesSection</span>
+                        <span class="component-project">← DS_Reference</span>
+                        
+                    </div>
+                    <span class="component-lines">139 строк</span>
+                </div>
+
+                <div class="component" data-name="academysection">
+                    <div>
+                        <span class="component-name">AcademySection</span>
+                        <span class="component-project">← DS_Reference</span>
+                        
+                    </div>
+                    <span class="component-lines">136 строк</span>
+                </div>
+
+                <div class="component" data-name="comparisonsection">
+                    <div>
+                        <span class="component-name">ComparisonSection</span>
+                        <span class="component-project">← DS_Reference</span>
+                        
+                    </div>
+                    <span class="component-lines">128 строк</span>
+                </div>
+
+                <div class="component" data-name="animatedcontainer">
+                    <div>
+                        <span class="component-name">AnimatedContainer</span>
+                        <span class="component-project">← DS_Reference</span>
+                        
+                    </div>
+                    <span class="component-lines">125 строк</span>
+                </div>
+
+                <div class="component" data-name="resourcessection">
+                    <div>
+                        <span class="component-name">ResourcesSection</span>
+                        <span class="component-project">← DS_Reference</span>
+                        
+                    </div>
+                    <span class="component-lines">118 строк</span>
+                </div>
+
+                <div class="component" data-name="technologiessection">
+                    <div>
+                        <span class="component-name">TechnologiesSection</span>
+                        <span class="component-project">← DS_Reference</span>
+                        
+                    </div>
+                    <span class="component-lines">103 строк</span>
+                </div>
+
+                <div class="component" data-name="root">
+                    <div>
+                        <span class="component-name">Root</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">94 строк</span>
+                </div>
+
+                <div class="component" data-name="usageguide">
+                    <div>
+                        <span class="component-name">UsageGuide</span>
+                        <span class="component-project">← UI_MATRIX</span>
+                        
+                    </div>
+                    <span class="component-lines">93 строк</span>
+                </div>
+
+                <div class="component" data-name="header">
+                    <div>
+                        <span class="component-name">Header</span>
+                        <span class="component-project">← DS_Reference</span>
+                        <span class="component-copies">×3</span>
+                    </div>
+                    <span class="component-lines">93 строк</span>
+                </div>
+
+                <div class="component" data-name="testcomponentmanualtype">
+                    <div>
+                        <span class="component-name">TestComponentManualType</span>
+                        <span class="component-project">← CSS_Grid</span>
+                        <span class="component-copies">×56</span>
+                    </div>
+                    <span class="component-lines">92 строк</span>
+                </div>
+
+                <div class="component" data-name="stackssection">
+                    <div>
+                        <span class="component-name">StacksSection</span>
+                        <span class="component-project">← UI_MATRIX</span>
+                        
+                    </div>
+                    <span class="component-lines">87 строк</span>
+                </div>
+
+                <div class="component" data-name="patternssection">
+                    <div>
+                        <span class="component-name">PatternsSection</span>
+                        <span class="component-project">← DS_Reference</span>
+                        
+                    </div>
+                    <span class="component-lines">86 строк</span>
+                </div>
+
+                <div class="component" data-name="portfolio">
+                    <div>
+                        <span class="component-name">Portfolio</span>
+                        <span class="component-project">← dev.studio_2_portfolio</span>
+                        
+                    </div>
+                    <span class="component-lines">84 строк</span>
+                </div>
+
+                <div class="component" data-name="principlessection">
+                    <div>
+                        <span class="component-name">PrinciplesSection</span>
+                        <span class="component-project">← DS_Reference</span>
+                        
+                    </div>
+                    <span class="component-lines">83 строк</span>
+                </div>
+
+                <div class="component" data-name="contact">
+                    <div>
+                        <span class="component-name">Contact</span>
+                        <span class="component-project">← Portfolio-Conversion</span>
+                        
+                    </div>
+                    <span class="component-lines">79 строк</span>
+                </div>
+
+                <div class="component" data-name="warningsblock">
+                    <div>
+                        <span class="component-name">WarningsBlock</span>
+                        <span class="component-project">← UI_MATRIX</span>
+                        
+                    </div>
+                    <span class="component-lines">76 строк</span>
+                </div>
+
+                <div class="component" data-name="weeknumber">
+                    <div>
+                        <span class="component-name">WeekNumber</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">64 строк</span>
+                </div>
+
+                <div class="component" data-name="backtotop">
+                    <div>
+                        <span class="component-name">BackToTop</span>
+                        <span class="component-project">← Portfolio-Conversion</span>
+                        
+                    </div>
+                    <span class="component-lines">57 строк</span>
+                </div>
+
+                <div class="component" data-name="imagewithfallback">
+                    <div>
+                        <span class="component-name">ImageWithFallback</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">32 строк</span>
+                </div>
+
+                <div class="component" data-name="primary">
+                    <div>
+                        <span class="component-name">Primary</span>
+                        <span class="component-project">← MVP_Flow_Studio_Pro</span>
+                        
+                    </div>
+                    <span class="component-lines">24 строк</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <div class="category-header" onclick="this.parentElement.classList.toggle('open')">
+                <span class="category-name">Effects & Styling</span>
+                <span class="category-count">24</span>
+            </div>
+            <div class="components">
+
+                <div class="component" data-name="devexsection">
+                    <div>
+                        <span class="component-name">DevexSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">1138 строк</span>
+                </div>
+
+                <div class="component" data-name="glitchsection">
+                    <div>
+                        <span class="component-name">GlitchSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">1132 строк</span>
+                </div>
+
+                <div class="component" data-name="userprofile">
+                    <div>
+                        <span class="component-name">UserProfile</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">1052 строк</span>
+                </div>
+
+                <div class="component" data-name="unitconvertersection">
+                    <div>
+                        <span class="component-name">UnitConverterSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">1031 строк</span>
+                </div>
+
+                <div class="component" data-name="cssfilterssection">
+                    <div>
+                        <span class="component-name">CssFiltersSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">971 строк</span>
+                </div>
+
+                <div class="component" data-name="brutalismsection">
+                    <div>
+                        <span class="component-name">BrutalismSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">863 строк</span>
+                </div>
+
+                <div class="component" data-name="tokeninspector">
+                    <div>
+                        <span class="component-name">TokenInspector</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v2.0</span>
+                        
+                    </div>
+                    <span class="component-lines">809 строк</span>
+                </div>
+
+                <div class="component" data-name="loremipsumsection">
+                    <div>
+                        <span class="component-name">LoremIpsumSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">723 строк</span>
+                </div>
+
+                <div class="component" data-name="stylecomparison">
+                    <div>
+                        <span class="component-name">StyleComparison</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v2.0</span>
+                        
+                    </div>
+                    <span class="component-lines">688 строк</span>
+                </div>
+
+                <div class="component" data-name="dynamicbackground">
+                    <div>
+                        <span class="component-name">DynamicBackground</span>
+                        <span class="component-project">← UI_RADAR</span>
+                        
+                    </div>
+                    <span class="component-lines">511 строк</span>
+                </div>
+
+                <div class="component" data-name="stylelegend">
+                    <div>
+                        <span class="component-name">StyleLegend</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v2.0</span>
+                        
+                    </div>
+                    <span class="component-lines">356 строк</span>
+                </div>
+
+                <div class="component" data-name="styleexport">
+                    <div>
+                        <span class="component-name">StyleExport</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v2.0</span>
+                        
+                    </div>
+                    <span class="component-lines">317 строк</span>
+                </div>
+
+                <div class="component" data-name="stylefavorites">
+                    <div>
+                        <span class="component-name">StyleFavorites</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v2.0</span>
+                        
+                    </div>
+                    <span class="component-lines">305 строк</span>
+                </div>
+
+                <div class="component" data-name="stylehistory">
+                    <div>
+                        <span class="component-name">StyleHistory</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v2.0</span>
+                        
+                    </div>
+                    <span class="component-lines">296 строк</span>
+                </div>
+
+                <div class="component" data-name="styled">
+                    <div>
+                        <span class="component-name">Styled</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">279 строк</span>
+                </div>
+
+                <div class="component" data-name="keyboardhelp">
+                    <div>
+                        <span class="component-name">KeyboardHelp</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v2.0</span>
+                        
+                    </div>
+                    <span class="component-lines">254 строк</span>
+                </div>
+
+                <div class="component" data-name="advisorpanel">
+                    <div>
+                        <span class="component-name">AdvisorPanel</span>
+                        <span class="component-project">← 47-CSS-</span>
+                        
+                    </div>
+                    <span class="component-lines">239 строк</span>
+                </div>
+
+                <div class="component" data-name="boot">
+                    <div>
+                        <span class="component-name">BOOT</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v2.0</span>
+                        
+                    </div>
+                    <span class="component-lines">228 строк</span>
+                </div>
+
+                <div class="component" data-name="particleconstellation">
+                    <div>
+                        <span class="component-name">ParticleConstellation</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v2.0</span>
+                        
+                    </div>
+                    <span class="component-lines">220 строк</span>
+                </div>
+
+                <div class="component" data-name="foundationssection">
+                    <div>
+                        <span class="component-name">FoundationsSection</span>
+                        <span class="component-project">← DS_Reference</span>
+                        
+                    </div>
+                    <span class="component-lines">219 строк</span>
+                </div>
+
+                <div class="component" data-name="socketdemo">
+                    <div>
+                        <span class="component-name">SocketDemo</span>
+                        <span class="component-project">← CSS_Grid</span>
+                        <span class="component-copies">×15</span>
+                    </div>
+                    <span class="component-lines">201 строк</span>
+                </div>
+
+                <div class="component" data-name="cursoreffect">
+                    <div>
+                        <span class="component-name">CursorEffect</span>
+                        <span class="component-project">← Portfolio-Conversion</span>
+                        
+                    </div>
+                    <span class="component-lines">65 строк</span>
+                </div>
+
+                <div class="component" data-name="ecosystemfilter">
+                    <div>
+                        <span class="component-name">EcosystemFilter</span>
+                        <span class="component-project">← UI_MATRIX</span>
+                        
+                    </div>
+                    <span class="component-lines">61 строк</span>
+                </div>
+
+                <div class="component" data-name="categoryfilter">
+                    <div>
+                        <span class="component-name">CategoryFilter</span>
+                        <span class="component-project">← UI_MATRIX</span>
+                        
+                    </div>
+                    <span class="component-lines">58 строк</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <div class="category-header" onclick="this.parentElement.classList.toggle('open')">
+                <span class="category-name">Contexts & Providers</span>
+                <span class="category-count">13</span>
+            </div>
+            <div class="components">
+
+                <div class="component" data-name="sessioncontext">
+                    <div>
+                        <span class="component-name">SessionContext</span>
+                        <span class="component-project">← CSS_Grid</span>
+                        <span class="component-copies">×14</span>
+                    </div>
+                    <span class="component-lines">499 строк</span>
+                </div>
+
+                <div class="component" data-name="soundcontext">
+                    <div>
+                        <span class="component-name">SoundContext</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">479 строк</span>
+                </div>
+
+                <div class="component" data-name="themeprovider">
+                    <div>
+                        <span class="component-name">ThemeProvider</span>
+                        <span class="component-project">← color</span>
+                        <span class="component-copies">×2</span>
+                    </div>
+                    <span class="component-lines">404 строк</span>
+                </div>
+
+                <div class="component" data-name="themesettings">
+                    <div>
+                        <span class="component-name">ThemeSettings</span>
+                        <span class="component-project">← 47-CSS-</span>
+                        
+                    </div>
+                    <span class="component-lines">151 строк</span>
+                </div>
+
+                <div class="component" data-name="focuscontext">
+                    <div>
+                        <span class="component-name">FocusContext</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">142 строк</span>
+                </div>
+
+                <div class="component" data-name="hydrationboundary">
+                    <div>
+                        <span class="component-name">HydrationBoundary</span>
+                        <span class="component-project">← CSS_Grid</span>
+                        <span class="component-copies">×14</span>
+                    </div>
+                    <span class="component-lines">116 строк</span>
+                </div>
+
+                <div class="component" data-name="themecontext">
+                    <div>
+                        <span class="component-name">ThemeContext</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">110 строк</span>
+                </div>
+
+                <div class="component" data-name="themetoggle">
+                    <div>
+                        <span class="component-name">ThemeToggle</span>
+                        <span class="component-project">← Portfolio-Conversion</span>
+                        <span class="component-copies">×6</span>
+                    </div>
+                    <span class="component-lines">103 строк</span>
+                </div>
+
+                <div class="component" data-name="dndprovider">
+                    <div>
+                        <span class="component-name">DndProvider</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">98 строк</span>
+                </div>
+
+                <div class="component" data-name="modifierscontext">
+                    <div>
+                        <span class="component-name">ModifiersContext</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">62 строк</span>
+                </div>
+
+                <div class="component" data-name="queryerrorresetboundary">
+                    <div>
+                        <span class="component-name">QueryErrorResetBoundary</span>
+                        <span class="component-project">← CSS_Grid</span>
+                        <span class="component-copies">×14</span>
+                    </div>
+                    <span class="component-lines">61 строк</span>
+                </div>
+
+                <div class="component" data-name="rootprovider">
+                    <div>
+                        <span class="component-name">RootProvider</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">51 строк</span>
+                </div>
+
+                <div class="component" data-name="queryclientcontext">
+                    <div>
+                        <span class="component-name">QueryClientContext</span>
+                        <span class="component-project">← CSS_Grid</span>
+                        <span class="component-copies">×14</span>
+                    </div>
+                    <span class="component-lines">50 строк</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <div class="category-header" onclick="this.parentElement.classList.toggle('open')">
+                <span class="category-name">Code Tools</span>
+                <span class="category-count">11</span>
+            </div>
+            <div class="components">
+
+                <div class="component" data-name="markdownpreviewsection">
+                    <div>
+                        <span class="component-name">MarkdownPreviewSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">1574 строк</span>
+                </div>
+
+                <div class="component" data-name="jsonformattersection">
+                    <div>
+                        <span class="component-name">JsonFormatterSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">1215 строк</span>
+                </div>
+
+                <div class="component" data-name="codeplaygroundsection">
+                    <div>
+                        <span class="component-name">CodePlaygroundSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">1148 строк</span>
+                </div>
+
+                <div class="component" data-name="svgeditorsection">
+                    <div>
+                        <span class="component-name">SvgEditorSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">1146 строк</span>
+                </div>
+
+                <div class="component" data-name="codesnippetssection">
+                    <div>
+                        <span class="component-name">CodeSnippetsSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">1136 строк</span>
+                </div>
+
+                <div class="component" data-name="terminalsection">
+                    <div>
+                        <span class="component-name">TerminalSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">982 строк</span>
+                </div>
+
+                <div class="component" data-name="csssnippetssection">
+                    <div>
+                        <span class="component-name">CssSnippetsSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">930 строк</span>
+                </div>
+
+                <div class="component" data-name="codecomparisonsection">
+                    <div>
+                        <span class="component-name">CodeComparisonSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">923 строк</span>
+                </div>
+
+                <div class="component" data-name="regextestersection">
+                    <div>
+                        <span class="component-name">RegexTesterSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">787 строк</span>
+                </div>
+
+                <div class="component" data-name="base64toolsection">
+                    <div>
+                        <span class="component-name">Base64ToolSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">766 строк</span>
+                </div>
+
+                <div class="component" data-name="styleplayground">
+                    <div>
+                        <span class="component-name">StylePlayground</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v2.0</span>
+                        
+                    </div>
+                    <span class="component-lines">424 строк</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <div class="category-header" onclick="this.parentElement.classList.toggle('open')">
+                <span class="category-name">Flow Editor</span>
+                <span class="category-count">11</span>
+            </div>
+            <div class="components">
+
+                <div class="component" data-name="colorpalettesection">
+                    <div>
+                        <span class="component-name">ColorPaletteSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">1374 строк</span>
+                </div>
+
+                <div class="component" data-name="nodeconfigpanel">
+                    <div>
+                        <span class="component-name">NodeConfigPanel</span>
+                        <span class="component-project">← Flow-Studio-Pro</span>
+                        
+                    </div>
+                    <span class="component-lines">749 строк</span>
+                </div>
+
+                <div class="component" data-name="flowstudiopro">
+                    <div>
+                        <span class="component-name">FlowStudioPro</span>
+                        <span class="component-project">← Flow-Studio-Pro</span>
+                        
+                    </div>
+                    <span class="component-lines">671 строк</span>
+                </div>
+
+                <div class="component" data-name="flowassistant">
+                    <div>
+                        <span class="component-name">FlowAssistant</span>
+                        <span class="component-project">← Flow-Studio-Pro</span>
+                        
+                    </div>
+                    <span class="component-lines">654 строк</span>
+                </div>
+
+                <div class="component" data-name="flowcanvas">
+                    <div>
+                        <span class="component-name">FlowCanvas</span>
+                        <span class="component-project">← Flow-Studio-Pro</span>
+                        <span class="component-copies">×2</span>
+                    </div>
+                    <span class="component-lines">340 строк</span>
+                </div>
+
+                <div class="component" data-name="commandpalette">
+                    <div>
+                        <span class="component-name">CommandPalette</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">270 строк</span>
+                </div>
+
+                <div class="component" data-name="executionpanel">
+                    <div>
+                        <span class="component-name">ExecutionPanel</span>
+                        <span class="component-project">← Flow-Studio-Pro</span>
+                        
+                    </div>
+                    <span class="component-lines">266 строк</span>
+                </div>
+
+                <div class="component" data-name="flownode">
+                    <div>
+                        <span class="component-name">FlowNode</span>
+                        <span class="component-project">← Flow-Studio-Pro</span>
+                        
+                    </div>
+                    <span class="component-lines">242 строк</span>
+                </div>
+
+                <div class="component" data-name="nodepalette">
+                    <div>
+                        <span class="component-name">NodePalette</span>
+                        <span class="component-project">← Flow-Studio-Pro</span>
+                        
+                    </div>
+                    <span class="component-lines">193 строк</span>
+                </div>
+
+                <div class="component" data-name="colorpalette">
+                    <div>
+                        <span class="component-name">ColorPalette</span>
+                        <span class="component-project">← color</span>
+                        <span class="component-copies">×2</span>
+                    </div>
+                    <span class="component-lines">31 строк</span>
+                </div>
+
+                <div class="component" data-name="floweditor">
+                    <div>
+                        <span class="component-name">FlowEditor</span>
+                        <span class="component-project">← MVP_Flow_Studio_Pro</span>
+                        
+                    </div>
+                    <span class="component-lines">22 строк</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <div class="category-header" onclick="this.parentElement.classList.toggle('open')">
+                <span class="category-name">Pages</span>
+                <span class="category-count">10</span>
+            </div>
+            <div class="components">
+
+                <div class="component" data-name="home">
+                    <div>
+                        <span class="component-name">Home</span>
+                        <span class="component-project">← DesignSystems_Hub_industrial</span>
+                        <span class="component-copies">×14</span>
+                    </div>
+                    <span class="component-lines">5067 строк</span>
+                </div>
+
+                <div class="component" data-name="homepage">
+                    <div>
+                        <span class="component-name">HomePage</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">2440 строк</span>
+                </div>
+
+                <div class="component" data-name="app">
+                    <div>
+                        <span class="component-name">App</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">542 строк</span>
+                </div>
+
+                <div class="component" data-name="signinpage">
+                    <div>
+                        <span class="component-name">SigninPage</span>
+                        <span class="component-project">← CSS_Grid</span>
+                        <span class="component-copies">×14</span>
+                    </div>
+                    <span class="component-lines">284 строк</span>
+                </div>
+
+                <div class="component" data-name="homesection">
+                    <div>
+                        <span class="component-name">HomeSection</span>
+                        <span class="component-project">← DS_Reference</span>
+                        
+                    </div>
+                    <span class="component-lines">154 строк</span>
+                </div>
+
+                <div class="component" data-name="errorpage">
+                    <div>
+                        <span class="component-name">ErrorPage</span>
+                        <span class="component-project">← CSS_Grid</span>
+                        <span class="component-copies">×14</span>
+                    </div>
+                    <span class="component-lines">117 строк</span>
+                </div>
+
+                <div class="component" data-name="pageloader">
+                    <div>
+                        <span class="component-name">PageLoader</span>
+                        <span class="component-project">← Portfolio-Conversion</span>
+                        
+                    </div>
+                    <span class="component-lines">100 строк</span>
+                </div>
+
+                <div class="component" data-name="page">
+                    <div>
+                        <span class="component-name">Page</span>
+                        <span class="component-project">← MVP_Flow_Studio_Pro</span>
+                        <span class="component-copies">×2</span>
+                    </div>
+                    <span class="component-lines">78 строк</span>
+                </div>
+
+                <div class="component" data-name="signoutpage">
+                    <div>
+                        <span class="component-name">SignoutPage</span>
+                        <span class="component-project">← CSS_Grid</span>
+                        <span class="component-copies">×14</span>
+                    </div>
+                    <span class="component-lines">53 строк</span>
+                </div>
+
+                <div class="component" data-name="verifyrequestpage">
+                    <div>
+                        <span class="component-name">VerifyRequestPage</span>
+                        <span class="component-project">← CSS_Grid</span>
+                        <span class="component-copies">×14</span>
+                    </div>
+                    <span class="component-lines">42 строк</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <div class="category-header" onclick="this.parentElement.classList.toggle('open')">
+                <span class="category-name">Charts & Graphs</span>
+                <span class="category-count">10</span>
+            </div>
+            <div class="components">
+
+                <div class="component" data-name="typographysection">
+                    <div>
+                        <span class="component-name">TypographySection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">1107 строк</span>
+                </div>
+
+                <div class="component" data-name="uiradarpage">
+                    <div>
+                        <span class="component-name">UIRadarPage</span>
+                        <span class="component-project">← UI_RADAR</span>
+                        
+                    </div>
+                    <span class="component-lines">978 строк</span>
+                </div>
+
+                <div class="component" data-name="statsdashboardsection">
+                    <div>
+                        <span class="component-name">StatsDashboardSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">631 строк</span>
+                </div>
+
+                <div class="component" data-name="toolsgraph">
+                    <div>
+                        <span class="component-name">ToolsGraph</span>
+                        <span class="component-project">← UI_MATRIX</span>
+                        
+                    </div>
+                    <span class="component-lines">292 строк</span>
+                </div>
+
+                <div class="component" data-name="radarchart">
+                    <div>
+                        <span class="component-name">RadarChart</span>
+                        <span class="component-project">← UI_MATRIX</span>
+                        
+                    </div>
+                    <span class="component-lines">276 строк</span>
+                </div>
+
+                <div class="component" data-name="stylestats">
+                    <div>
+                        <span class="component-name">StyleStats</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v2.0</span>
+                        
+                    </div>
+                    <span class="component-lines">263 строк</span>
+                </div>
+
+                <div class="component" data-name="githubactivitygraph">
+                    <div>
+                        <span class="component-name">GitHubActivityGraph</span>
+                        <span class="component-project">← Portfolio-Conversion</span>
+                        
+                    </div>
+                    <span class="component-lines">175 строк</span>
+                </div>
+
+                <div class="component" data-name="statssection">
+                    <div>
+                        <span class="component-name">StatsSection</span>
+                        <span class="component-project">← dev.studio_2_portfolio</span>
+                        
+                    </div>
+                    <span class="component-lines">160 строк</span>
+                </div>
+
+                <div class="component" data-name="statistics">
+                    <div>
+                        <span class="component-name">Statistics</span>
+                        <span class="component-project">← Portfolio-Conversion</span>
+                        
+                    </div>
+                    <span class="component-lines">155 строк</span>
+                </div>
+
+                <div class="component" data-name="skillsradar">
+                    <div>
+                        <span class="component-name">SkillsRadar</span>
+                        <span class="component-project">← Portfolio-Conversion</span>
+                        <span class="component-copies">×2</span>
+                    </div>
+                    <span class="component-lines">123 строк</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <div class="category-header" onclick="this.parentElement.classList.toggle('open')">
+                <span class="category-name">Layout & Preview</span>
+                <span class="category-count">9</span>
+            </div>
+            <div class="components">
+
+                <div class="component" data-name="responsiveshowcasesection">
+                    <div>
+                        <span class="component-name">ResponsiveShowcaseSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">1603 строк</span>
+                </div>
+
+                <div class="component" data-name="flexboxgridsection">
+                    <div>
+                        <span class="component-name">FlexboxGridSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">1386 строк</span>
+                </div>
+
+                <div class="component" data-name="transform3dsection">
+                    <div>
+                        <span class="component-name">Transform3dSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">1141 строк</span>
+                </div>
+
+                <div class="component" data-name="previewarea">
+                    <div>
+                        <span class="component-name">PreviewArea</span>
+                        <span class="component-project">← 47-CSS-</span>
+                        
+                    </div>
+                    <span class="component-lines">842 строк</span>
+                </div>
+
+                <div class="component" data-name="componentpreview">
+                    <div>
+                        <span class="component-name">ComponentPreview</span>
+                        <span class="component-project">← DS_Reference</span>
+                        
+                    </div>
+                    <span class="component-lines">648 строк</span>
+                </div>
+
+                <div class="component" data-name="livepreview">
+                    <div>
+                        <span class="component-name">LivePreview</span>
+                        <span class="component-project">← DS_Reference</span>
+                        
+                    </div>
+                    <span class="component-lines">343 строк</span>
+                </div>
+
+                <div class="component" data-name="rootlayout">
+                    <div>
+                        <span class="component-name">RootLayout</span>
+                        <span class="component-project">← Design_System_2.1.0_Справочник_дизайн-систем_на_ос</span>
+                        <span class="component-copies">×16</span>
+                    </div>
+                    <span class="component-lines">231 строк</span>
+                </div>
+
+                <div class="component" data-name="layoutselector">
+                    <div>
+                        <span class="component-name">LayoutSelector</span>
+                        <span class="component-project">← 47-CSS-</span>
+                        
+                    </div>
+                    <span class="component-lines">190 строк</span>
+                </div>
+
+                <div class="component" data-name="applayout">
+                    <div>
+                        <span class="component-name">AppLayout</span>
+                        <span class="component-project">← DS_Reference</span>
+                        
+                    </div>
+                    <span class="component-lines">54 строк</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <div class="category-header" onclick="this.parentElement.classList.toggle('open')">
+                <span class="category-name">Portfolio</span>
+                <span class="category-count">8</span>
+            </div>
+            <div class="components">
+
+                <div class="component" data-name="projects">
+                    <div>
+                        <span class="component-name">Projects</span>
+                        <span class="component-project">← Portfolio-Conversion</span>
+                        
+                    </div>
+                    <span class="component-lines">418 строк</span>
+                </div>
+
+                <div class="component" data-name="projectdetailsmodal">
+                    <div>
+                        <span class="component-name">ProjectDetailsModal</span>
+                        <span class="component-project">← Portfolio-Conversion</span>
+                        
+                    </div>
+                    <span class="component-lines">232 строк</span>
+                </div>
+
+                <div class="component" data-name="experience">
+                    <div>
+                        <span class="component-name">Experience</span>
+                        <span class="component-project">← Portfolio-Conversion</span>
+                        
+                    </div>
+                    <span class="component-lines">193 строк</span>
+                </div>
+
+                <div class="component" data-name="hero">
+                    <div>
+                        <span class="component-name">Hero</span>
+                        <span class="component-project">← Portfolio-Conversion</span>
+                        
+                    </div>
+                    <span class="component-lines">183 строк</span>
+                </div>
+
+                <div class="component" data-name="testimonials">
+                    <div>
+                        <span class="component-name">Testimonials</span>
+                        <span class="component-project">← Portfolio-Conversion</span>
+                        
+                    </div>
+                    <span class="component-lines">164 строк</span>
+                </div>
+
+                <div class="component" data-name="skills">
+                    <div>
+                        <span class="component-name">Skills</span>
+                        <span class="component-project">← Portfolio-Conversion</span>
+                        
+                    </div>
+                    <span class="component-lines">124 строк</span>
+                </div>
+
+                <div class="component" data-name="herotab">
+                    <div>
+                        <span class="component-name">HeroTab</span>
+                        <span class="component-project">← dev.studio_2_portfolio</span>
+                        
+                    </div>
+                    <span class="component-lines">95 строк</span>
+                </div>
+
+                <div class="component" data-name="footer">
+                    <div>
+                        <span class="component-name">Footer</span>
+                        <span class="component-project">← DS_Reference</span>
+                        <span class="component-copies">×2</span>
+                    </div>
+                    <span class="component-lines">79 строк</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <div class="category-header" onclick="this.parentElement.classList.toggle('open')">
+                <span class="category-name">Generators</span>
+                <span class="category-count">6</span>
+            </div>
+            <div class="components">
+
+                <div class="component" data-name="animationgeneratorsection">
+                    <div>
+                        <span class="component-name">AnimationGeneratorSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">1530 строк</span>
+                </div>
+
+                <div class="component" data-name="bordergeneratorsection">
+                    <div>
+                        <span class="component-name">BorderGeneratorSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">1333 строк</span>
+                </div>
+
+                <div class="component" data-name="shadowgeneratorsection">
+                    <div>
+                        <span class="component-name">ShadowGeneratorSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">1024 строк</span>
+                </div>
+
+                <div class="component" data-name="gradientgeneratorsection">
+                    <div>
+                        <span class="component-name">GradientGeneratorSection</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v3.0</span>
+                        
+                    </div>
+                    <span class="component-lines">1013 строк</span>
+                </div>
+
+                <div class="component" data-name="animationshowcase">
+                    <div>
+                        <span class="component-name">AnimationShowcase</span>
+                        <span class="component-project">← Web_Aesthetic_Showcase_v2.0</span>
+                        
+                    </div>
+                    <span class="component-lines">357 строк</span>
+                </div>
+
+                <div class="component" data-name="gradientstab">
+                    <div>
+                        <span class="component-name">GradientsTab</span>
+                        <span class="component-project">← dev.studio_2_portfolio</span>
+                        
+                    </div>
+                    <span class="component-lines">37 строк</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <div class="category-header" onclick="this.parentElement.classList.toggle('open')">
+                <span class="category-name">Color Picker</span>
+                <span class="category-count">6</span>
+            </div>
+            <div class="components">
+
+                <div class="component" data-name="colorpickerpanel">
+                    <div>
+                        <span class="component-name">ColorPickerPanel</span>
+                        <span class="component-project">← color</span>
+                        
+                    </div>
+                    <span class="component-lines">625 строк</span>
+                </div>
+
+                <div class="component" data-name="contrastpicker">
+                    <div>
+                        <span class="component-name">ContrastPicker</span>
+                        <span class="component-project">← color</span>
+                        <span class="component-copies">×2</span>
+                    </div>
+                    <span class="component-lines">359 строк</span>
+                </div>
+
+                <div class="component" data-name="colorpicker">
+                    <div>
+                        <span class="component-name">ColorPicker</span>
+                        <span class="component-project">← color</span>
+                        <span class="component-copies">×2</span>
+                    </div>
+                    <span class="component-lines">355 строк</span>
+                </div>
+
+                <div class="component" data-name="colorschemepreview">
+                    <div>
+                        <span class="component-name">ColorSchemePreview</span>
+                        <span class="component-project">← color</span>
+                        <span class="component-copies">×2</span>
+                    </div>
+                    <span class="component-lines">253 строк</span>
+                </div>
+
+                <div class="component" data-name="contrastvalidator">
+                    <div>
+                        <span class="component-name">ContrastValidator</span>
+                        <span class="component-project">← color</span>
+                        <span class="component-copies">×2</span>
+                    </div>
+                    <span class="component-lines">133 строк</span>
+                </div>
+
+                <div class="component" data-name="colorvariantslist">
+                    <div>
+                        <span class="component-name">ColorVariantsList</span>
+                        <span class="component-project">← color</span>
+                        <span class="component-copies">×2</span>
+                    </div>
+                    <span class="component-lines">88 строк</span>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    <script>
+        document.getElementById('search').addEventListener('input', function(e) {
+            const q = e.target.value.toLowerCase();
+            document.querySelectorAll('.component').forEach(c => {
+                c.style.display = c.dataset.name.includes(q) ? 'flex' : 'none';
+            });
+        });
+        document.querySelector('.category').classList.add('open');
+    </script>
+</body>
+</html>

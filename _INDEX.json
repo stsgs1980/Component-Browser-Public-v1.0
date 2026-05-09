@@ -1,0 +1,1633 @@
+[
+  {
+    "project": "DS_Reference",
+    "name": "AnimatedContainer",
+    "category": "ui",
+    "path": "DS_Reference",
+    "lines": 125
+  },
+  {
+    "project": "DS_Reference",
+    "name": "ComponentPreview",
+    "category": "preview",
+    "path": "DS_Reference",
+    "lines": 648
+  },
+  {
+    "project": "DS_Reference",
+    "name": "IconLogo",
+    "category": "ui",
+    "path": "DS_Reference",
+    "lines": 1323
+  },
+  {
+    "project": "DS_Reference",
+    "name": "LivePreview",
+    "category": "preview",
+    "path": "DS_Reference",
+    "lines": 343
+  },
+  {
+    "project": "DS_Reference",
+    "name": "SearchModal",
+    "category": "modal",
+    "path": "DS_Reference",
+    "lines": 127
+  },
+  {
+    "project": "DS_Reference",
+    "name": "AppLayout",
+    "category": "layout",
+    "path": "DS_Reference",
+    "lines": 54
+  },
+  {
+    "project": "DS_Reference",
+    "name": "Footer",
+    "category": "layout",
+    "path": "DS_Reference",
+    "lines": 79
+  },
+  {
+    "project": "DS_Reference",
+    "name": "Header",
+    "category": "layout",
+    "path": "DS_Reference",
+    "lines": 93
+  },
+  {
+    "project": "DS_Reference",
+    "name": "Sidebar",
+    "category": "layout",
+    "path": "DS_Reference",
+    "lines": 164
+  },
+  {
+    "project": "DS_Reference",
+    "name": "AcademySection",
+    "category": "sections",
+    "path": "DS_Reference",
+    "lines": 136
+  },
+  {
+    "project": "DS_Reference",
+    "name": "ComparisonSection",
+    "category": "sections",
+    "path": "DS_Reference",
+    "lines": 128
+  },
+  {
+    "project": "DS_Reference",
+    "name": "ComponentsSection",
+    "category": "sections",
+    "path": "DS_Reference",
+    "lines": 166
+  },
+  {
+    "project": "DS_Reference",
+    "name": "DeveloperGuideSection",
+    "category": "sections",
+    "path": "DS_Reference",
+    "lines": 197
+  },
+  {
+    "project": "DS_Reference",
+    "name": "FoundationsSection",
+    "category": "sections",
+    "path": "DS_Reference",
+    "lines": 219
+  },
+  {
+    "project": "DS_Reference",
+    "name": "HomeSection",
+    "category": "sections",
+    "path": "DS_Reference",
+    "lines": 154
+  },
+  {
+    "project": "DS_Reference",
+    "name": "LibrariesSection",
+    "category": "sections",
+    "path": "DS_Reference",
+    "lines": 139
+  },
+  {
+    "project": "DS_Reference",
+    "name": "PatternsSection",
+    "category": "sections",
+    "path": "DS_Reference",
+    "lines": 86
+  },
+  {
+    "project": "DS_Reference",
+    "name": "PrinciplesSection",
+    "category": "sections",
+    "path": "DS_Reference",
+    "lines": 83
+  },
+  {
+    "project": "DS_Reference",
+    "name": "ResourcesSection",
+    "category": "sections",
+    "path": "DS_Reference",
+    "lines": 118
+  },
+  {
+    "project": "DS_Reference",
+    "name": "SystemsSection",
+    "category": "sections",
+    "path": "DS_Reference",
+    "lines": 159
+  },
+  {
+    "project": "DS_Reference",
+    "name": "TechnologiesSection",
+    "category": "sections",
+    "path": "DS_Reference",
+    "lines": 103
+  },
+  {
+    "project": "DS_Reference",
+    "name": "IndustrialHome",
+    "category": "app",
+    "path": "DS_Reference",
+    "lines": 977
+  },
+  {
+    "project": "DS_Reference",
+    "name": "IndustrialThemeToggle",
+    "category": "theme",
+    "path": "DS_Reference",
+    "lines": 41
+  },
+  {
+    "project": "DS_Reference",
+    "name": "RadarButton",
+    "category": "ui",
+    "path": "DS_Reference",
+    "lines": 626
+  },
+  {
+    "project": "DS_Reference",
+    "name": "UIRadarPage",
+    "category": "app",
+    "path": "DS_Reference",
+    "lines": 978
+  },
+  {
+    "project": "DS_Reference",
+    "name": "DynamicBackground",
+    "category": "ui",
+    "path": "DS_Reference",
+    "lines": 511
+  },
+  {
+    "project": "DS_Reference",
+    "name": "Home",
+    "category": "app",
+    "path": "DS_Reference",
+    "lines": 52
+  },
+  {
+    "project": "DS_Reference",
+    "name": "ThemeToggle",
+    "category": "theme",
+    "path": "DS_Reference",
+    "lines": 40
+  },
+  {
+    "project": "DS_Reference",
+    "name": "ThemeProvider",
+    "category": "theme",
+    "path": "DS_Reference",
+    "lines": 16
+  },
+  {
+    "project": "Flow-Studio-Pro",
+    "name": "FlowStudioPro",
+    "category": "ui",
+    "path": "Flow-Studio-Pro",
+    "lines": 671
+  },
+  {
+    "project": "Flow-Studio-Pro",
+    "name": "ExecutionPanel",
+    "category": "panel",
+    "path": "Flow-Studio-Pro",
+    "lines": 266
+  },
+  {
+    "project": "Flow-Studio-Pro",
+    "name": "FlowAssistant",
+    "category": "ai",
+    "path": "Flow-Studio-Pro",
+    "lines": 654
+  },
+  {
+    "project": "Flow-Studio-Pro",
+    "name": "FlowCanvas",
+    "category": "canvas",
+    "path": "Flow-Studio-Pro",
+    "lines": 340
+  },
+  {
+    "project": "Flow-Studio-Pro",
+    "name": "FlowNode",
+    "category": "ui",
+    "path": "Flow-Studio-Pro",
+    "lines": 242
+  },
+  {
+    "project": "Flow-Studio-Pro",
+    "name": "NodeConfigPanel",
+    "category": "panel",
+    "path": "Flow-Studio-Pro",
+    "lines": 749
+  },
+  {
+    "project": "Flow-Studio-Pro",
+    "name": "NodePalette",
+    "category": "palette",
+    "path": "Flow-Studio-Pro",
+    "lines": 193
+  },
+  {
+    "project": "Flow-Studio-Pro",
+    "name": "MVPFlowEditor",
+    "category": "editor",
+    "path": "Flow-Studio-Pro",
+    "lines": 22
+  },
+  {
+    "project": "Flow-Studio-Pro",
+    "name": "MVPFlowCanvas",
+    "category": "canvas",
+    "path": "Flow-Studio-Pro",
+    "lines": 31
+  },
+  {
+    "project": "Portfolio-Conversion",
+    "name": "SkillsRadar",
+    "category": "ui",
+    "path": "Portfolio-Conversion",
+    "lines": 123
+  },
+  {
+    "project": "Portfolio-Conversion",
+    "name": "BackToTop",
+    "category": "ui",
+    "path": "Portfolio-Conversion",
+    "lines": 57
+  },
+  {
+    "project": "Portfolio-Conversion",
+    "name": "Contact",
+    "category": "ui",
+    "path": "Portfolio-Conversion",
+    "lines": 79
+  },
+  {
+    "project": "Portfolio-Conversion",
+    "name": "CursorEffect",
+    "category": "effect",
+    "path": "Portfolio-Conversion",
+    "lines": 65
+  },
+  {
+    "project": "Portfolio-Conversion",
+    "name": "Experience",
+    "category": "ui",
+    "path": "Portfolio-Conversion",
+    "lines": 193
+  },
+  {
+    "project": "Portfolio-Conversion",
+    "name": "GitHubActivityGraph",
+    "category": "visualization",
+    "path": "Portfolio-Conversion",
+    "lines": 175
+  },
+  {
+    "project": "Portfolio-Conversion",
+    "name": "Hero",
+    "category": "ui",
+    "path": "Portfolio-Conversion",
+    "lines": 183
+  },
+  {
+    "project": "Portfolio-Conversion",
+    "name": "HowIWork",
+    "category": "ui",
+    "path": "Portfolio-Conversion",
+    "lines": 169
+  },
+  {
+    "project": "Portfolio-Conversion",
+    "name": "Navigation",
+    "category": "layout",
+    "path": "Portfolio-Conversion",
+    "lines": 177
+  },
+  {
+    "project": "Portfolio-Conversion",
+    "name": "PageLoader",
+    "category": "loader",
+    "path": "Portfolio-Conversion",
+    "lines": 100
+  },
+  {
+    "project": "Portfolio-Conversion",
+    "name": "PresentationMode",
+    "category": "mode",
+    "path": "Portfolio-Conversion",
+    "lines": 244
+  },
+  {
+    "project": "Portfolio-Conversion",
+    "name": "ProjectDetailsModal",
+    "category": "modal",
+    "path": "Portfolio-Conversion",
+    "lines": 232
+  },
+  {
+    "project": "Portfolio-Conversion",
+    "name": "Projects",
+    "category": "ui",
+    "path": "Portfolio-Conversion",
+    "lines": 418
+  },
+  {
+    "project": "Portfolio-Conversion",
+    "name": "Skills",
+    "category": "ui",
+    "path": "Portfolio-Conversion",
+    "lines": 124
+  },
+  {
+    "project": "Portfolio-Conversion",
+    "name": "Statistics",
+    "category": "ui",
+    "path": "Portfolio-Conversion",
+    "lines": 155
+  },
+  {
+    "project": "Portfolio-Conversion",
+    "name": "Testimonials",
+    "category": "ui",
+    "path": "Portfolio-Conversion",
+    "lines": 164
+  },
+  {
+    "project": "Portfolio-Conversion",
+    "name": "Home",
+    "category": "app",
+    "path": "Portfolio-Conversion",
+    "lines": 57
+  },
+  {
+    "project": "Portfolio-Conversion",
+    "name": "Footer",
+    "category": "layout",
+    "path": "Portfolio-Conversion",
+    "lines": 19
+  },
+  {
+    "project": "Portfolio-Conversion",
+    "name": "ThemeToggle",
+    "category": "theme",
+    "path": "Portfolio-Conversion",
+    "lines": 103
+  },
+  {
+    "project": "UI_MATRIX",
+    "name": "CategoryFilter",
+    "category": "filter",
+    "path": "UI_MATRIX",
+    "lines": 58
+  },
+  {
+    "project": "UI_MATRIX",
+    "name": "CompatibilityMatrix",
+    "category": "ui",
+    "path": "UI_MATRIX",
+    "lines": 195
+  },
+  {
+    "project": "UI_MATRIX",
+    "name": "EcosystemFilter",
+    "category": "filter",
+    "path": "UI_MATRIX",
+    "lines": 61
+  },
+  {
+    "project": "UI_MATRIX",
+    "name": "Glossary",
+    "category": "ui",
+    "path": "UI_MATRIX",
+    "lines": 160
+  },
+  {
+    "project": "UI_MATRIX",
+    "name": "StacksSection",
+    "category": "sections",
+    "path": "UI_MATRIX",
+    "lines": 87
+  },
+  {
+    "project": "UI_MATRIX",
+    "name": "ToolStackCard",
+    "category": "card",
+    "path": "UI_MATRIX",
+    "lines": 135
+  },
+  {
+    "project": "UI_MATRIX",
+    "name": "ToolsGraph",
+    "category": "visualization",
+    "path": "UI_MATRIX",
+    "lines": 292
+  },
+  {
+    "project": "UI_MATRIX",
+    "name": "ToolCard",
+    "category": "card",
+    "path": "UI_MATRIX",
+    "lines": 219
+  },
+  {
+    "project": "UI_MATRIX",
+    "name": "UsageGuide",
+    "category": "ui",
+    "path": "UI_MATRIX",
+    "lines": 93
+  },
+  {
+    "project": "UI_MATRIX",
+    "name": "WarningsBlock",
+    "category": "ui",
+    "path": "UI_MATRIX",
+    "lines": 76
+  },
+  {
+    "project": "UI_MATRIX",
+    "name": "Home",
+    "category": "app",
+    "path": "UI_MATRIX",
+    "lines": 221
+  },
+  {
+    "project": "UI_MATRIX",
+    "name": "RadarChart",
+    "category": "visualization",
+    "path": "UI_MATRIX",
+    "lines": 276
+  },
+  {
+    "project": "UI_MATRIX",
+    "name": "ThemeProvider",
+    "category": "theme",
+    "path": "UI_MATRIX",
+    "lines": 16
+  },
+  {
+    "project": "UI_MATRIX",
+    "name": "ThemeToggle",
+    "category": "theme",
+    "path": "UI_MATRIX",
+    "lines": 45
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v2.0",
+    "name": "AnimationShowcase",
+    "category": "showcase",
+    "path": "Web_Aesthetic_Showcase_v2.0",
+    "lines": 357
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v2.0",
+    "name": "KeyboardHelp",
+    "category": "ui",
+    "path": "Web_Aesthetic_Showcase_v2.0",
+    "lines": 254
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v2.0",
+    "name": "ParticleConstellation",
+    "category": "ui",
+    "path": "Web_Aesthetic_Showcase_v2.0",
+    "lines": 220
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v2.0",
+    "name": "StyleComparison",
+    "category": "comparison",
+    "path": "Web_Aesthetic_Showcase_v2.0",
+    "lines": 688
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v2.0",
+    "name": "StyleExport",
+    "category": "ui",
+    "path": "Web_Aesthetic_Showcase_v2.0",
+    "lines": 317
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v2.0",
+    "name": "StyleFavorites",
+    "category": "ui",
+    "path": "Web_Aesthetic_Showcase_v2.0",
+    "lines": 305
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v2.0",
+    "name": "StyleHistory",
+    "category": "ui",
+    "path": "Web_Aesthetic_Showcase_v2.0",
+    "lines": 296
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v2.0",
+    "name": "StyleLegend",
+    "category": "ui",
+    "path": "Web_Aesthetic_Showcase_v2.0",
+    "lines": 356
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v2.0",
+    "name": "StylePlayground",
+    "category": "ui",
+    "path": "Web_Aesthetic_Showcase_v2.0",
+    "lines": 424
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v2.0",
+    "name": "StyleStats",
+    "category": "ui",
+    "path": "Web_Aesthetic_Showcase_v2.0",
+    "lines": 263
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v2.0",
+    "name": "TokenInspector",
+    "category": "debug",
+    "path": "Web_Aesthetic_Showcase_v2.0",
+    "lines": 809
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v2.0",
+    "name": "TransitionPicker",
+    "category": "form",
+    "path": "Web_Aesthetic_Showcase_v2.0",
+    "lines": 274
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v2.0",
+    "name": "BOOT",
+    "category": "ui",
+    "path": "Web_Aesthetic_Showcase_v2.0",
+    "lines": 228
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v2.0",
+    "name": "Home",
+    "category": "app",
+    "path": "Web_Aesthetic_Showcase_v2.0",
+    "lines": 813
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "HomePage",
+    "category": "app",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 2440
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "AnimationGeneratorSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 1530
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "Base64ToolSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 766
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "BorderGeneratorSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 1333
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "BrutalismSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 863
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "CodeComparisonSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 923
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "CodePlaygroundSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 1148
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "CodeSnippetsSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 1136
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "ColorPaletteSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 1374
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "CommandPalette",
+    "category": "palette",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 270
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "CssFiltersSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 971
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "CssSnippetsSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 930
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "DevexSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 1138
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "UserProfile",
+    "category": "ui",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 1052
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "FlexboxGridSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 1386
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "GlitchSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 1132
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "GradientGeneratorSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 1013
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "JsonFormatterSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 1215
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "LoremIpsumSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 723
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "MarkdownPreviewSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 1574
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "RegexTesterSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 787
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "ResponsiveShowcaseSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 1603
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "ShadowGeneratorSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 1024
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "SoundContext",
+    "category": "context",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 479
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "StatsDashboardSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 631
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "SvgEditorSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 1146
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "TerminalSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 982
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "Transform3dSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 1141
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "TypographySection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 1107
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "UnitConverterSection",
+    "category": "sections",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 1031
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "ThemeProvider",
+    "category": "theme",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 12
+  },
+  {
+    "project": "Web_Aesthetic_Showcase_v3.0",
+    "name": "ThemeToggle",
+    "category": "theme",
+    "path": "Web_Aesthetic_Showcase_v3.0",
+    "lines": 73
+  },
+  {
+    "project": "color",
+    "name": "Input",
+    "category": "ui",
+    "path": "color",
+    "lines": 686
+  },
+  {
+    "project": "color",
+    "name": "ThemeProvider",
+    "category": "theme",
+    "path": "color",
+    "lines": 400
+  },
+  {
+    "project": "color",
+    "name": "ColorPalette",
+    "category": "palette",
+    "path": "color",
+    "lines": 27
+  },
+  {
+    "project": "color",
+    "name": "ColorPicker",
+    "category": "form",
+    "path": "color",
+    "lines": 351
+  },
+  {
+    "project": "color",
+    "name": "ColorSchemePreview",
+    "category": "preview",
+    "path": "color",
+    "lines": 249
+  },
+  {
+    "project": "color",
+    "name": "ColorVariantsList",
+    "category": "list",
+    "path": "color",
+    "lines": 84
+  },
+  {
+    "project": "color",
+    "name": "ContrastPicker",
+    "category": "form",
+    "path": "color",
+    "lines": 355
+  },
+  {
+    "project": "color",
+    "name": "ContrastValidator",
+    "category": "validation",
+    "path": "color",
+    "lines": 129
+  },
+  {
+    "project": "color",
+    "name": "ImageWithFallback",
+    "category": "ui",
+    "path": "color",
+    "lines": 28
+  },
+  {
+    "project": "color",
+    "name": "ColorPickerPanel",
+    "category": "panel",
+    "path": "color",
+    "lines": 621
+  },
+  {
+    "project": "css-grids",
+    "name": "PreviewArea",
+    "category": "ui",
+    "path": "css-grids",
+    "lines": 837
+  },
+  {
+    "project": "css-grids",
+    "name": "AdvisorPanel",
+    "category": "panel",
+    "path": "css-grids",
+    "lines": 234
+  },
+  {
+    "project": "css-grids",
+    "name": "LayoutSelector",
+    "category": "form",
+    "path": "css-grids",
+    "lines": 185
+  },
+  {
+    "project": "css-grids",
+    "name": "GoalSelector",
+    "category": "form",
+    "path": "css-grids",
+    "lines": 37
+  },
+  {
+    "project": "css-grids",
+    "name": "ThemeSettings",
+    "category": "config",
+    "path": "css-grids",
+    "lines": 146
+  },
+  {
+    "project": "css-grids",
+    "name": "layouts",
+    "category": "config",
+    "path": "css-grids",
+    "lines": 515
+  },
+  {
+    "project": "css-grids",
+    "name": "useAppStore",
+    "category": "hooks",
+    "path": "css-grids",
+    "lines": 165
+  },
+  {
+    "project": "css-grids",
+    "name": "layout",
+    "category": "layout",
+    "path": "css-grids",
+    "lines": 62
+  },
+  {
+    "project": "css-grids",
+    "name": "page",
+    "category": "app",
+    "path": "css-grids",
+    "lines": 306
+  },
+  {
+    "project": "css-grids",
+    "name": "PatternCard",
+    "category": "card",
+    "path": "css-grids",
+    "lines": 152
+  },
+  {
+    "project": "css-grids",
+    "name": "SectionTitle",
+    "category": "ui",
+    "path": "css-grids",
+    "lines": 82
+  },
+  {
+    "project": "css-grids",
+    "name": "GridItem",
+    "category": "ui",
+    "path": "css-grids",
+    "lines": 36
+  },
+  {
+    "project": "dev.studio_2_portfolio",
+    "name": "ImageShowcase",
+    "category": "showcase",
+    "path": "dev.studio_2_portfolio",
+    "lines": 255
+  },
+  {
+    "project": "dev.studio_2_portfolio",
+    "name": "ProcessSection",
+    "category": "sections",
+    "path": "dev.studio_2_portfolio",
+    "lines": 213
+  },
+  {
+    "project": "dev.studio_2_portfolio",
+    "name": "StatsSection",
+    "category": "sections",
+    "path": "dev.studio_2_portfolio",
+    "lines": 160
+  },
+  {
+    "project": "dev.studio_2_portfolio",
+    "name": "CardsTab",
+    "category": "tabs",
+    "path": "dev.studio_2_portfolio",
+    "lines": 38
+  },
+  {
+    "project": "dev.studio_2_portfolio",
+    "name": "GalleryTab",
+    "category": "tabs",
+    "path": "dev.studio_2_portfolio",
+    "lines": 102
+  },
+  {
+    "project": "dev.studio_2_portfolio",
+    "name": "GradientsTab",
+    "category": "tabs",
+    "path": "dev.studio_2_portfolio",
+    "lines": 37
+  },
+  {
+    "project": "dev.studio_2_portfolio",
+    "name": "HeroTab",
+    "category": "tabs",
+    "path": "dev.studio_2_portfolio",
+    "lines": 95
+  },
+  {
+    "project": "dev.studio_2_portfolio",
+    "name": "Portfolio",
+    "category": "ui",
+    "path": "dev.studio_2_portfolio",
+    "lines": 84
+  },
+  {
+    "project": "dev.studio_2_portfolio",
+    "name": "InteractiveTab",
+    "category": "tabs",
+    "path": "dev.studio_2_portfolio",
+    "lines": 35
+  },
+  {
+    "project": "dev.studio_2_portfolio",
+    "name": "SectionsTab",
+    "category": "tabs",
+    "path": "dev.studio_2_portfolio",
+    "lines": 38
+  },
+  {
+    "project": "dev.studio_2_portfolio",
+    "name": "Button",
+    "category": "ui",
+    "path": "dev.studio_2_portfolio",
+    "lines": 690
+  },
+  {
+    "project": "dev.studio_2_portfolio",
+    "name": "Home",
+    "category": "app",
+    "path": "dev.studio_2_portfolio",
+    "lines": 52
+  },
+  {
+    "project": "dev.studio_2_portfolio",
+    "name": "Sidebar",
+    "category": "layout",
+    "path": "dev.studio_2_portfolio",
+    "lines": 57
+  },
+  {
+    "project": "dev.studio_2_portfolio",
+    "name": "SkillsRadar",
+    "category": "ui",
+    "path": "dev.studio_2_portfolio",
+    "lines": 118
+  },
+  {
+    "project": "Performance-Lab",
+    "name": "FadeIn",
+    "category": "animation",
+    "path": "Performance-Lab",
+    "lines": 34
+  },
+  {
+    "project": "Performance-Lab",
+    "name": "AnimatedCounter",
+    "category": "animation",
+    "path": "Performance-Lab",
+    "lines": 61
+  },
+  {
+    "project": "Performance-Lab",
+    "name": "AnimatedProgressBar",
+    "category": "animation",
+    "path": "Performance-Lab",
+    "lines": 44
+  },
+  {
+    "project": "Performance-Lab",
+    "name": "SortIcon",
+    "category": "ui",
+    "path": "Performance-Lab",
+    "lines": 27
+  },
+  {
+    "project": "Performance-Lab",
+    "name": "CodeDiff",
+    "category": "ui",
+    "path": "Performance-Lab",
+    "lines": 155
+  },
+  {
+    "project": "Performance-Lab",
+    "name": "ComplexityBadge",
+    "category": "ui",
+    "path": "Performance-Lab",
+    "lines": 43
+  },
+  {
+    "project": "Performance-Lab",
+    "name": "AchievementToast",
+    "category": "ui",
+    "path": "Performance-Lab",
+    "lines": 84
+  },
+  {
+    "project": "Performance-Lab",
+    "name": "MiniBarChart",
+    "category": "chart",
+    "path": "Performance-Lab",
+    "lines": 140
+  },
+  {
+    "project": "Performance-Lab",
+    "name": "CodeBlock",
+    "category": "ui",
+    "path": "Performance-Lab",
+    "lines": 142
+  },
+  {
+    "project": "Performance-Lab",
+    "name": "usePersisted",
+    "category": "hooks",
+    "path": "Performance-Lab",
+    "lines": 52
+  },
+  {
+    "project": "Performance-Lab",
+    "name": "UtilityParsers",
+    "category": "utils",
+    "path": "Performance-Lab",
+    "lines": 45
+  },
+  {
+    "project": "LLM-Memory-Guide",
+    "name": "ComponentErrorBoundary",
+    "category": "error",
+    "path": "LLM-Memory-Guide",
+    "lines": 70
+  },
+  {
+    "project": "LLM-Memory-Guide",
+    "name": "QuickQuiz",
+    "category": "quiz",
+    "path": "LLM-Memory-Guide",
+    "lines": 321
+  },
+  {
+    "project": "LLM-Memory-Guide",
+    "name": "DecisionTree",
+    "category": "interactive",
+    "path": "LLM-Memory-Guide",
+    "lines": 234
+  },
+  {
+    "project": "LLM-Memory-Guide",
+    "name": "GuidedTour",
+    "category": "tour",
+    "path": "LLM-Memory-Guide",
+    "lines": 319
+  },
+  {
+    "project": "LLM-Memory-Guide",
+    "name": "CostSimulator",
+    "category": "calculator",
+    "path": "LLM-Memory-Guide",
+    "lines": 1321
+  },
+  {
+    "project": "LLM-Memory-Guide",
+    "name": "ArchitectureBuilder",
+    "category": "builder",
+    "path": "LLM-Memory-Guide",
+    "lines": 1655
+  },
+  {
+    "project": "LLM-Memory-Guide",
+    "name": "TokenFlowVisualizer",
+    "category": "visualization",
+    "path": "LLM-Memory-Guide",
+    "lines": 1164
+  },
+  {
+    "project": "LLM-Memory-Guide",
+    "name": "TechniqueBattle",
+    "category": "comparison",
+    "path": "LLM-Memory-Guide",
+    "lines": 1774
+  },
+  {
+    "project": "LLM-Memory-Guide",
+    "name": "LearningPath",
+    "category": "education",
+    "path": "LLM-Memory-Guide",
+    "lines": 971
+  },
+  {
+    "project": "LLM-Memory-Guide",
+    "name": "FaqAccordion",
+    "category": "content",
+    "path": "LLM-Memory-Guide",
+    "lines": 806
+  },
+  {
+    "project": "LLM-Memory-Guide",
+    "name": "BenchmarksChart",
+    "category": "chart",
+    "path": "LLM-Memory-Guide",
+    "lines": 1514
+  },
+  {
+    "project": "LLM-Memory-Guide",
+    "name": "PromptTemplates",
+    "category": "content",
+    "path": "LLM-Memory-Guide",
+    "lines": 724
+  },
+  {
+    "project": "LLM-Memory-Guide",
+    "name": "InteractivePlayground",
+    "category": "interactive",
+    "path": "LLM-Memory-Guide",
+    "lines": 598
+  },
+  {
+    "project": "LLM-Memory-Guide",
+    "name": "QuickReference",
+    "category": "content",
+    "path": "LLM-Memory-Guide",
+    "lines": 687
+  },
+  {
+    "project": "LLM-Memory-Guide",
+    "name": "ComparisonMatrix",
+    "category": "comparison",
+    "path": "LLM-Memory-Guide",
+    "lines": 1305
+  },
+  {
+    "project": "CodeMan",
+    "name": "SelectElementButton",
+    "category": "inspector",
+    "path": "CodeMan",
+    "lines": 389
+  },
+  {
+    "project": "CodeMan",
+    "name": "CommandPalette",
+    "category": "palette",
+    "path": "CodeMan",
+    "lines": 252
+  },
+  {
+    "project": "CodeMan",
+    "name": "CapacityMeter",
+    "category": "ui",
+    "path": "CodeMan",
+    "lines": 114
+  },
+  {
+    "project": "CodeMan",
+    "name": "ChatMessage",
+    "category": "chat",
+    "path": "CodeMan",
+    "lines": 285
+  },
+  {
+    "project": "CodeMan",
+    "name": "ChatInput",
+    "category": "chat",
+    "path": "CodeMan",
+    "lines": 282
+  },
+  {
+    "project": "CodeMan",
+    "name": "ErrorBoundary",
+    "category": "error",
+    "path": "CodeMan",
+    "lines": 104
+  },
+  {
+    "project": "CodeMan",
+    "name": "TerminalHeader",
+    "category": "layout",
+    "path": "CodeMan",
+    "lines": 173
+  },
+  {
+    "project": "CodeMan",
+    "name": "WelcomeScreen",
+    "category": "ui",
+    "path": "CodeMan",
+    "lines": 201
+  },
+  {
+    "project": "Learning-Plan",
+    "name": "FloatingItem",
+    "category": "ui",
+    "path": "Learning-Plan",
+    "lines": 123
+  },
+  {
+    "project": "Learning-Plan",
+    "name": "QuickActions",
+    "category": "toolbar",
+    "path": "Learning-Plan",
+    "lines": 176
+  },
+  {
+    "project": "Learning-Plan",
+    "name": "FlowNodeShell",
+    "category": "flow",
+    "path": "Learning-Plan",
+    "lines": 267
+  },
+  {
+    "project": "UI-Library-Compare",
+    "name": "LanguageProvider",
+    "category": "i18n",
+    "path": "UI-Library-Compare",
+    "lines": 77
+  },
+  {
+    "project": "UI-Library-Compare",
+    "name": "FilterPanel",
+    "category": "filter",
+    "path": "UI-Library-Compare",
+    "lines": 102
+  },
+  {
+    "project": "UI-Library-Compare",
+    "name": "EntityCard",
+    "category": "card",
+    "path": "UI-Library-Compare",
+    "lines": 161
+  },
+  {
+    "project": "UI-Library-Compare",
+    "name": "ComparisonTable",
+    "category": "comparison",
+    "path": "UI-Library-Compare",
+    "lines": 164
+  },
+  {
+    "project": "DS_Reference",
+    "name": "SectionHeader",
+    "category": "ui",
+    "path": "DS_Reference",
+    "lines": 29
+  },
+  {
+    "project": "DS_Reference",
+    "name": "CodeBlock",
+    "category": "ui",
+    "path": "DS_Reference",
+    "lines": 70
+  },
+  {
+    "project": "DS_Reference",
+    "name": "SearchableFilterableGrid",
+    "category": "grid",
+    "path": "DS_Reference",
+    "lines": 119
+  },
+  {
+    "project": "DS_Reference",
+    "name": "AnimatedBackground",
+    "category": "effect",
+    "path": "DS_Reference",
+    "lines": 169
+  },
+  {
+    "project": "DS_Reference",
+    "name": "StatsGrid",
+    "category": "ui",
+    "path": "DS_Reference",
+    "lines": 101
+  },
+  {
+    "project": "DS_Reference",
+    "name": "ComparisonTable",
+    "category": "comparison",
+    "path": "DS_Reference",
+    "lines": 119
+  },
+  {
+    "project": "DS_Reference",
+    "name": "RankingList",
+    "category": "ui",
+    "path": "DS_Reference",
+    "lines": 101
+  },
+  {
+    "project": "DS_Reference",
+    "name": "UseNavigationStore",
+    "category": "hooks",
+    "path": "DS_Reference",
+    "lines": 63
+  },
+  {
+    "project": "Industrial-Style-Guide",
+    "name": "ImageLightbox",
+    "category": "modal",
+    "path": "Industrial-Style-Guide",
+    "lines": 95
+  },
+  {
+    "project": "Industrial-Style-Guide",
+    "name": "CatalogCard",
+    "category": "card",
+    "path": "Industrial-Style-Guide",
+    "lines": 181
+  },
+  {
+    "project": "Industrial-Style-Guide",
+    "name": "UnderlineTabs",
+    "category": "ui",
+    "path": "Industrial-Style-Guide",
+    "lines": 68
+  },
+  {
+    "project": "DesignSystems-Hub-industrial",
+    "name": "ThreeColumnBrowser",
+    "category": "layout",
+    "path": "DesignSystems-Hub-industrial",
+    "lines": 286
+  },
+  {
+    "project": "Carbon_Design_System",
+    "name": "CategoryTile",
+    "category": "card",
+    "path": "Carbon_Design_System",
+    "lines": 150
+  },
+  {
+    "project": "Carbon_Design_System",
+    "name": "CategoryDetailCard",
+    "category": "card",
+    "path": "Carbon_Design_System",
+    "lines": 150
+  },
+  {
+    "project": "Carbon_Design_System",
+    "name": "StatsRow",
+    "category": "ui",
+    "path": "Carbon_Design_System",
+    "lines": 94
+  },
+  {
+    "project": "Carbon_Design_System",
+    "name": "UseFilteredSections",
+    "category": "hooks",
+    "path": "Carbon_Design_System",
+    "lines": 98
+  },
+  {
+    "project": "Carbon_Design_System",
+    "name": "CarbonDesignTokens",
+    "category": "tokens",
+    "path": "Carbon_Design_System",
+    "lines": 106
+  },
+  {
+    "project": "Carbon_Design_System",
+    "name": "CarbonCSSTheme",
+    "category": "tokens",
+    "path": "Carbon_Design_System",
+    "lines": 225
+  },
+  {
+    "project": "Carbon_Design_System",
+    "name": "UseIconRegistry",
+    "category": "hooks",
+    "path": "Carbon_Design_System",
+    "lines": 133
+  },
+  {
+    "project": "Carbon_Design_System",
+    "name": "ConnectionBadge",
+    "category": "ui",
+    "path": "Carbon_Design_System",
+    "lines": 100
+  },
+  {
+    "project": "Orchestration_AI_Agents",
+    "name": "AnimatedStatusCard",
+    "category": "ui",
+    "path": "Orchestration_AI_Agents",
+    "lines": 166
+  },
+  {
+    "project": "Orchestration_AI_Agents",
+    "name": "AnimatedFlowConnector",
+    "category": "ui",
+    "path": "Orchestration_AI_Agents",
+    "lines": 112
+  },
+  {
+    "project": "Orchestration_AI_Agents",
+    "name": "EventLogPanel",
+    "category": "ui",
+    "path": "Orchestration_AI_Agents",
+    "lines": 133
+  },
+  {
+    "project": "Orchestration_AI_Agents",
+    "name": "PipelineSimulator",
+    "category": "engine",
+    "path": "Orchestration_AI_Agents",
+    "lines": 228
+  },
+  {
+    "project": "Orchestration_AI_Agents",
+    "name": "GradientTabBar",
+    "category": "ui",
+    "path": "Orchestration_AI_Agents",
+    "lines": 64
+  },
+  {
+    "project": "Orchestration_AI_Agents",
+    "name": "AmbientBackground",
+    "category": "effect",
+    "path": "Orchestration_AI_Agents",
+    "lines": 70
+  },
+  {
+    "project": "Orchestration_AI_Agents",
+    "name": "BadgeCloud",
+    "category": "ui",
+    "path": "Orchestration_AI_Agents",
+    "lines": 63
+  },
+  {
+    "project": "Orchestration_AI_Agents",
+    "name": "InfoCardGrid",
+    "category": "ui",
+    "path": "Orchestration_AI_Agents",
+    "lines": 93
+  },
+  {
+    "project": "Code-Snippets-Gallery",
+    "name": "SandboxedPreview",
+    "category": "preview",
+    "path": "Code-Snippets-Gallery",
+    "lines": 83
+  },
+  {
+    "project": "Code-Snippets-Gallery",
+    "name": "PreviewHTMLGenerator",
+    "category": "engine",
+    "path": "Code-Snippets-Gallery",
+    "lines": 177
+  },
+  {
+    "project": "Code-Snippets-Gallery",
+    "name": "UseLocaleSync",
+    "category": "i18n",
+    "path": "Code-Snippets-Gallery",
+    "lines": 126
+  },
+  {
+    "project": "Code-Snippets-Gallery",
+    "name": "RateLimiter",
+    "category": "security",
+    "path": "Code-Snippets-Gallery",
+    "lines": 75
+  },
+  {
+    "project": "Code-Snippets-Gallery",
+    "name": "ApiKeyAuth",
+    "category": "security",
+    "path": "Code-Snippets-Gallery",
+    "lines": 67
+  },
+  {
+    "project": "Code-Snippets-Gallery",
+    "name": "FilterBar",
+    "category": "filter",
+    "path": "Code-Snippets-Gallery",
+    "lines": 120
+  },
+  {
+    "project": "Code-Snippets-Gallery",
+    "name": "CodeViewerDialog",
+    "category": "dialog",
+    "path": "Code-Snippets-Gallery",
+    "lines": 200
+  },
+  {
+    "project": "Code-Snippets-Gallery",
+    "name": "GalleryCard",
+    "category": "card",
+    "path": "Code-Snippets-Gallery",
+    "lines": 178
+  },
+  {
+    "project": "Code-Snippets-Gallery",
+    "name": "StaggeredHero",
+    "category": "sections",
+    "path": "Code-Snippets-Gallery",
+    "lines": 130
+  },
+  {
+    "project": "Code-Snippets-Gallery",
+    "name": "OKLCHTheme",
+    "category": "tokens",
+    "path": "Code-Snippets-Gallery",
+    "lines": 159
+  },
+  {
+    "project": "Code-Snippets-Gallery",
+    "name": "TypeSafeI18n",
+    "category": "i18n",
+    "path": "Code-Snippets-Gallery",
+    "lines": 95
+  }
+]
